@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /*
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        */
+
+        grid-gap: 1em;
+      }
+
+      .wrapper > div {
+        background: #ccc;
+        padding: 1em;
+      }
+
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo est
+        quo assumenda sapiente magnam necessitatibus, vitae ex tempore
+        asperiores delectus, itaque neque voluptatum laboriosam suscipit cum
+        velit sit. Expedita, fugiat, esse doloremque natus voluptatum illo vel
+        iure praesentium aspernatur magni ullam ut nesciunt officiis ipsa earum
+        et in ex! Modi rem id commodi sapiente, eum minus consequatur non
+        nesciunt cupiditate consectetur minima numquam facere dolor cumque,
+        molestias aut laborum veniam provident autem dignissimos quidem ratione
+        illum. Modi explicabo beatae iste.
+      </div>
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+        repellendus dolores sunt earum laudantium adipisci corporis, consequatur
+        cumque, perspiciatis amet eum dolorum placeat debitis assumenda officiis
+        quam nisi quisquam esse.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo est
+        quo assumenda sapiente magnam necessitatibus, vitae ex tempore
+        asperiores delectus, itaque neque voluptatum laboriosam suscipit cum
+        velit sit. Expedita, fugiat, esse doloremque natus voluptatum illo vel
+        iure praesentium aspernatur magni ullam ut nesciunt officiis ipsa earum
+        et in ex! Modi rem id commodi sapiente, eum minus consequatur non
+        nesciunt cupiditate consectetur minima numquam facere dolor cumque,
+        molestias aut laborum veniam provident autem dignissimos quidem ratione
+        illum. Modi explicabo beatae iste.
+      </div>
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+        repellendus dolores sunt earum laudantium adipisci corporis, consequatur
+        cumque, perspiciatis amet eum dolorum placeat debitis assumenda officiis
+        quam nisi quisquam esse.
+      </div>
+      <div>Yo</div>
+      <div>Yo</div>
+      <div>Yo</div>
+    </div>
+  </body>
+</html>
