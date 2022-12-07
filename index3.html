@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 5px;
+        grid-column-gap: 15px;
+        row-gap: 15px;
+      }
+
+      .grid > div {
+        padding: 1em;
+        background-image: linear-gradient(to right, #20bf55, #01baef);
+        border-radius: 12px;
+      }
+
+      .grid > div:nth-child(odd) {
+        background-image: linear-gradient(to right, #5f0a87, #a4508b);
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+      <div>Thanks</div>
+    </div>
+  </body>
+</html>
