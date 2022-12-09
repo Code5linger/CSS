@@ -13,4 +13,9 @@ p {
 
 #secondPara {
   color: blueviolet;
+  background-color: aliceblue;
+}
+
+#secondPara p:nth-child(odd) {
+  color: yellowgreen;
 }
