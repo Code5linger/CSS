@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+p {
+  color: red;
+  font-size: 2em;
+}
+
+.firstPara {
+  color: green;
+}
+
+#secondPara {
+  color: blueviolet;
+}
