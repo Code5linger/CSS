@@ -24,12 +24,12 @@ body {
 }
 .test {
   border: 5px solid green;
-  width: 369px;
+  width: 700px;
 }
 .content {
   box-sizing: border-box;
   width: 100%;
-  border: 25px solid crimson;
+  border: 30px solid crimson;
   padding: 10px;
   margin-top: 11.8em;
   background-color: white;
