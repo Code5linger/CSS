@@ -4,6 +4,12 @@
     font-family: 'PT Serif', serif;
 */
 
+body {
+  box-sizing: border-box;
+  text-align: center;
+  color: #414141;
+}
+
 .container {
   width: 90%;
   max-width: 39rem;
@@ -11,14 +17,12 @@
 }
 
 .article {
-  box-sizing: border-box;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 h1 {
   color: #414141;
   font-family: "Cinzel", serif;
-  text-align: center;
   font-size: 5.3em;
   line-height: 78px;
   text-transform: uppercase;
@@ -26,9 +30,8 @@ h1 {
 }
 
 .subtitle {
-  color: #414141;
+  color: #7d7d7d;
   font-family: PT Serif;
-  text-align: center;
   font-size: 36px;
   margin-top: -39px;
   margin-bottom: 93px;
@@ -36,10 +39,10 @@ h1 {
 
 .container {
   font-size: 21px;
+  text-align: left;
+  color: #5b5b5b;
 }
 
 .lead {
-  box-sizing: border-box;
-  font-size: 21px;
-  margin-left: 5px;
+  font-size: 23px;
 }
