@@ -16,6 +16,7 @@
 }
 
 h1 {
+  color: #414141;
   font-family: "Cinzel", serif;
   text-align: center;
   font-size: 5.3em;
@@ -25,9 +26,20 @@ h1 {
 }
 
 .subtitle {
+  color: #414141;
   font-family: PT Serif;
   text-align: center;
   font-size: 36px;
   margin-top: -39px;
   margin-bottom: 93px;
+}
+
+.container {
+  font-size: 21px;
+}
+
+.lead {
+  box-sizing: border-box;
+  font-size: 21px;
+  margin-left: 5px;
 }
