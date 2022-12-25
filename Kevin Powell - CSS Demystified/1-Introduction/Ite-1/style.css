@@ -1,0 +1,45 @@
+/*
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*/
+.ele1 {
+  width: 200px;
+  border: 2px solid black;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.ele2 {
+  /*box-sizing: border-box;*/
+  border: 2px solid crimson;
+  width: 200px;
+  padding: 40px;
+  margin-top: 20px;
+}
+body {
+  background-color: gray;
+}
+.test {
+  border: 5px solid green;
+  width: 700px;
+}
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  border: 30px solid crimson;
+  padding: 10px;
+  margin-top: 11.8em;
+  background-color: white;
+}
+h1 {
+  color: orangered;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 1.2em;
+}

@@ -1,0 +1,22 @@
+body {
+  background-color: burlywood;
+  /* property */ /* Value*/
+  /* property + value == Declaration */
+}
+
+.elementA {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid white;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.elementB {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+  border: 2px solid white;
+  text-align: center;
+  margin: 0px auto;
+}
