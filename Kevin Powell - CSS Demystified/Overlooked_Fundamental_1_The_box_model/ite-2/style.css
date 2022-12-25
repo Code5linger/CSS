@@ -10,7 +10,7 @@ body {
   margin: 0 auto;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .non-box {
@@ -28,4 +28,18 @@ body {
   padding: 20px;
   border: 5px solid gray;
   margin: 20px;
+}
+
+.card-box {
+  border: 5px dotted lightgreen;
+}
+
+.card {
+  text-align: left;
+  background: white;
+
+  width: 100%;
+  padding: 50px;
+  border: 50px solid crimson;
+  margin-top: 50px;
 }
