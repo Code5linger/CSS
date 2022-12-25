@@ -1,0 +1,24 @@
+body {
+  background: darkgrey;
+  margin: 0 auto;
+}
+.parent {
+  margin-top: 3em;
+  display: flex;
+}
+
+.content {
+  background: white;
+  padding: 1em 3em;
+  margin: 0em 1em;
+  box-shadow: 0 0em 1em rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  font-family: sans-serif;
+  color: orangered;
+}
+
+p {
+  font-size: 1.2em;
+}
