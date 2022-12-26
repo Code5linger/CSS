@@ -4,10 +4,8 @@
     font-family: 'PT Serif', serif;
 */
 
-.container {
-  width: 90%;
-  max-width: 39rem;
-  margin: 0 auto;
+header {
+  box-sizing: border-box;
 }
 
 h1 {
@@ -20,3 +18,70 @@ h1 {
 
   padding-top: 1.4em;
 }
+
+.subtitle {
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  margin: -44px;
+}
+
+.container {
+  font-family: PT Serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: 90%;
+  max-width: 39rem;
+
+  padding-top: 115px;
+  margin: 0 auto;
+}
+
+.lead {
+  font-family: PT Serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*
+font-family: PT Serif;
+font-size: 21px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: PT Serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: PT Serif;
+font-size: 21px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: PT Serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+
+*/
