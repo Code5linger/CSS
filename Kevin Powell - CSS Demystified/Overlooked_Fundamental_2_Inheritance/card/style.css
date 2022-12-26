@@ -1,0 +1,61 @@
+html {
+  text-align: center;
+  font-family: Roboto;
+  color: white;
+}
+
+.parent {
+  border: 1px solid red;
+}
+
+.header_text {
+  box-sizing: border-box;
+  border: 1px solid olive;
+}
+
+h1 {
+  font-size: 41px;
+  font-weight: 700;
+  color: #00cdac;
+  text-transform: uppercase;
+
+  padding: 51px 0 0 0;
+  line-height: 0px;
+}
+
+.subheadline {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 50;
+  color: black;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 1em;
+}
+
+.plan {
+  box-sizing: border-box;
+  text-align: center;
+  width: 260px;
+
+  border-radius: 15px;
+  background-image: linear-gradient(180deg, #3741a0, #114243);
+}
+
+.plan__title {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 34px;
+}
+
+.plan__price {
+  font-size: 50px;
+  line-height: 32px;
+  padding-left: 1px;
+  letter-spacing: 0.1px;
+}
