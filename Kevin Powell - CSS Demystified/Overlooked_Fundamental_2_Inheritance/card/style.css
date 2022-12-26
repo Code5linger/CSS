@@ -5,18 +5,18 @@ html {
 }
 
 .parent {
-  border: 1px solid red;
+  border: 1px solid;
 }
 
 .header_text {
   box-sizing: border-box;
-  border: 1px solid olive;
+  border: 1px solid;
 }
 
 h1 {
   font-size: 41px;
   font-weight: 700;
-  color: #00cdac;
+  color: #00a1ab;
   text-transform: uppercase;
 
   padding: 51px 0 0 0;
@@ -24,10 +24,14 @@ h1 {
 }
 
 .subheadline {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 21px;
   font-weight: 50;
   color: black;
+
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 .card {
@@ -41,29 +45,50 @@ h1 {
 .plan {
   box-sizing: border-box;
   text-align: center;
+  background-image: linear-gradient(333.85deg, #00a1ab 0.88%, #3741a0 99.09%);
+
   width: 260px;
   min-height: 370px;
   border-radius: 9px;
-  background-image: linear-gradient(333.85deg, #00a1ab 0.88%, #3741a0 99.09%);
+  margin: 0 24px;
 }
+
 .planA {
   box-sizing: border-box;
   text-align: center;
+  background-image: linear-gradient(333.85deg, #e5e3e8 0.88%, #fafafa 99.09%);
   color: black;
+
   width: 260px;
   min-height: 370px;
-  padding-right: 1em;
   border-radius: 9px;
-  background-image: linear-gradient(333.85deg, #e5e3e8 0.88%, #fafafa 99.09%);
 }
+
+.planA__button,
+.planC__button {
+  background-color: #4e4e4e !important;
+  color: white !important;
+}
+
 .planC {
   box-sizing: border-box;
   text-align: center;
   color: black;
+
   width: 260px;
   min-height: 370px;
   border-radius: 9px;
   background-image: linear-gradient(333.85deg, #e5e3e8 0.88%, #fafafa 99.09%);
+}
+
+.planC__price,
+.planA__price {
+  color: #00a1ab !important;
+}
+
+.planA__price__duration,
+.planC__price__duration {
+  color: #00a1ab !important;
 }
 
 .plan__title {
@@ -99,6 +124,7 @@ h1 {
   border: none;
   font-size: 15px;
   font-weight: 700;
+  color: #4e4e4e;
 
   width: 96px;
   padding: 10px 0px;
@@ -108,7 +134,8 @@ h1 {
 }
 
 .footer {
-  margin-top: 37px;
+  margin-top: 36px;
+  border: 2px solid;
 }
 
 .footer_text {
@@ -124,7 +151,7 @@ h1 {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 0.2px;
-  background-color: #00cdac;
+  background-color: #00a1ab;
   border: none;
   font-size: 15px;
   font-weight: 700;
