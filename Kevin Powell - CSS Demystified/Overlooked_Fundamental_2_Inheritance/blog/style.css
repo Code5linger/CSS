@@ -1,0 +1,22 @@
+/* fonts */
+/* 
+    font-family: 'Cinzel', serif;
+    font-family: 'PT Serif', serif;
+*/
+
+.container {
+  width: 90%;
+  max-width: 39rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  padding-top: 1.4em;
+}
