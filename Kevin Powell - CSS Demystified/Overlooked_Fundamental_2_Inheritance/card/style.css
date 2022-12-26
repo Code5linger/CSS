@@ -42,9 +42,28 @@ h1 {
   box-sizing: border-box;
   text-align: center;
   width: 260px;
-
-  border-radius: 15px;
-  background-image: linear-gradient(180deg, #3741a0, #114243);
+  min-height: 370px;
+  border-radius: 9px;
+  background-image: linear-gradient(333.85deg, #00a1ab 0.88%, #3741a0 99.09%);
+}
+.planA {
+  box-sizing: border-box;
+  text-align: center;
+  color: black;
+  width: 260px;
+  min-height: 370px;
+  padding-right: 1em;
+  border-radius: 9px;
+  background-image: linear-gradient(333.85deg, #e5e3e8 0.88%, #fafafa 99.09%);
+}
+.planC {
+  box-sizing: border-box;
+  text-align: center;
+  color: black;
+  width: 260px;
+  min-height: 370px;
+  border-radius: 9px;
+  background-image: linear-gradient(333.85deg, #e5e3e8 0.88%, #fafafa 99.09%);
 }
 
 .plan__title {
@@ -58,4 +77,64 @@ h1 {
   line-height: 32px;
   padding-left: 1px;
   letter-spacing: 0.1px;
+}
+
+.plan__price__duration {
+  font-size: 25px;
+  padding-top: 6px;
+}
+
+.plan__price__description {
+  font-size: 16px;
+  padding-top: 24px;
+  line-height: 23px;
+  padding-bottom: 30px;
+}
+
+.plan__button {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+
+  width: 96px;
+  padding: 10px 0px;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 37px;
+}
+
+.footer_text {
+  font-family: Roboto;
+  font-size: 20.6px;
+  font-weight: 50;
+  color: black;
+
+  padding-left: 21px;
+}
+
+.footer__button {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  background-color: #00cdac;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+
+  width: 127px;
+  padding: 10px 0px;
+  border-radius: 8px;
+  margin-left: 22px;
+  margin-top: 7px;
+
+  cursor: pointer;
 }
