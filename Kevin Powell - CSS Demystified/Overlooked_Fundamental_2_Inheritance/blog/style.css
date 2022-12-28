@@ -1,6 +1,12 @@
+/* ✔ */ /* ❌ */
+
 html {
   box-sizing: border-box;
 }
+
+a {
+  color: #ca5e10;
+} /* ✔ */
 
 header {
   text-align: center;
@@ -47,8 +53,4 @@ h1 {
   text-align: left;
 
   padding-top: 4px;
-}
-
-a {
-  color: #ca5e10;
 }
