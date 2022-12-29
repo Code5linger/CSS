@@ -1,3 +1,4 @@
+/*
 .red {
   background-color: red !important;
 }
@@ -32,4 +33,38 @@ h1 {
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
+}
+*/
+
+p {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 1em;
+  transition: all 500ms;
+}
+
+p:hover {
+  animation: test 5s forwards;
+}
+
+p:hover {
+  transition-duration: 2.5s;
+  color: yellow;
+  background: black;
+}
+
+p {
+  color: red !important;
+}
+
+@keyframes test {
+  from {
+    background: crimson;
+    color: green;
+  }
+  to {
+    background: yellow;
+    color: black;
+  }
 }
