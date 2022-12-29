@@ -35,7 +35,7 @@ p {
   font-size: 1.5rem;
 }
 */
-
+/*
 p {
   text-align: center;
   font-size: 4rem;
@@ -67,4 +67,26 @@ p {
     background: yellow;
     color: black;
   }
+}
+*/
+body {
+  margin: 0 auto;
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.red.blue {
+  background: purple;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
 }
