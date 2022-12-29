@@ -6,7 +6,30 @@
   background: blue;
 }
 
+body {
+  margin: 0 auto;
+}
+
 .element {
   background: blue;
   background: red;
+}
+
+.parent {
+  padding-top: 10rem;
+}
+.content {
+  border: 2em solid orangered;
+  padding: 2em;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  color: orangered;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
 }
