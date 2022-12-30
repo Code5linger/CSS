@@ -18,6 +18,7 @@ h1 {
 .fs-500 {
   font-size: 1.3125rem;
   margin-top: 0;
+  margin-bottom: 19px;
 }
 
 .plans {
@@ -28,12 +29,13 @@ h1 {
 .plan {
   width: 200px;
   padding: 2em;
+  padding-top: 3em;
   border-radius: 1em;
   margin: 0 0.5em;
 }
 
 .plan--light {
-  color: #4e4e4e;
+  color: #31a1ab;
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
 }
 
@@ -45,6 +47,14 @@ h1 {
 .plan__title {
   text-transform: uppercase;
   margin: 0 0 1em;
+}
+
+.plan--light .plan__title {
+  color: #4e4e4e;
+}
+
+.plan--light .plan__description {
+  color: #4e4e4e;
 }
 
 .plan__price {
@@ -81,4 +91,17 @@ h1 {
 .button--dark {
   color: white;
   background: #4e4e4e;
+}
+
+.button--cta {
+  color: white;
+  background: #00a1ab;
+  padding: 0.6em 0.65em;
+  margin-top: 2px;
+}
+
+.footer {
+  padding-top: 2.3em;
+  padding-left: 1.5em;
+  margin: 0;
 }
