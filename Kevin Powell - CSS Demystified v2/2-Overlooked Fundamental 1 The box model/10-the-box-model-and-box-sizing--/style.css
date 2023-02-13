@@ -6,19 +6,25 @@ body {
 .content {
   background-color: white;
   margin-top: 200px;
+  
+  /* width: 100%; */
+  border: 10px solid red;
 
-  border: 50px solid red;
-
-  padding: 30px;
+  padding: 5px;
 }
 
 .title {
   font-family: sans-serif;
-  font-weight: bolder;
+  font-weight: bolder; 
   color: orangered;
   
 }
 
 p {
   font-size: 1.2em;
+}
+
+.test {
+  border: 5px solid gold;
+  width: 300px;
 }
