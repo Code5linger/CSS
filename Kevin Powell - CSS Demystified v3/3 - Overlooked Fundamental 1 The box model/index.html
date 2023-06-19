@@ -9,6 +9,9 @@
       body {
         margin: 0;
       }
+
+      /* No Box Sizing */
+      /*
       .content {
         width: 200px;
         background-color: purple;
@@ -20,13 +23,71 @@
         border: 5px black solid;
         margin: 20px;
       }
+*/
+      /* Box Sizing */
+
+      .boxWithSizing {
+        display: flex;
+      }
+
+      .contentWithSizing {
+        box-sizing: border-box;
+
+        width: 200px;
+        background-color: yellow;
+        padding: 20px;
+        border: 5px black solid;
+        margin: 20px;
+      }
+
+      .parent {
+        border: 10px solid green;
+      }
+      h1 {
+        font-size: 2.5em;
+        color: orange;
+      }
+
+      p {
+        font-size: 1.5em;
+      }
+
+      .content {
+        box-sizing: border-box;
+
+        width: 50%;
+
+        border: 80px solid orangered;
+        padding: 50px;
+        background: wheat;
+        box-shadow: 0 0 3em rgba(0, 0, 0, 0.5);
+
+        margin-top: 10em;
+      }
     </style>
   </head>
 
   <body>
+    <!--
     <div class="box">
       <div class="content">200px</div>
-      <div class="padding"></div>
+    </div>
+
+    <div class="boxWithSizing">
+      <div class="contentWithSizing">200px</div>
+      <div class="contentWithSizing">200px</div>
+    </div>
+    -->
+    <div class="parent">
+      <div class="content">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+          reiciendis expedita itaque odit, enim ex minima quam delectus a nisi
+          deleniti velit quae? Soluta, quisquam. Dolorem quidem aliquid officia
+          necessitatibus.
+        </p>
+      </div>
     </div>
   </body>
 </html>
