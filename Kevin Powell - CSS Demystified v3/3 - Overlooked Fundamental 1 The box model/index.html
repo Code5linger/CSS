@@ -41,7 +41,7 @@
       }
 
       .parent {
-        border: 10px solid green;
+        display: flex;
       }
       h1 {
         font-size: 2.5em;
@@ -55,14 +55,12 @@
       .content {
         box-sizing: border-box;
 
-        width: 50%;
+        width: 100%;
 
-        border: 80px solid orangered;
+        /*border: 50px solid orangered;*/
         padding: 50px;
-        background: wheat;
         box-shadow: 0 0 3em rgba(0, 0, 0, 0.5);
-
-        margin-top: 10em;
+        margin: 5em 1em;
       }
     </style>
   </head>
@@ -80,12 +78,22 @@
     -->
     <div class="parent">
       <div class="content">
-        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>Lorem ipsum</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
           reiciendis expedita itaque odit, enim ex minima quam delectus a nisi
-          deleniti velit quae? Soluta, quisquam. Dolorem quidem aliquid officia
-          necessitatibus.
+        </p>
+      </div>
+      <div class="content">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+          reiciendis expedita itaque odit, enim ex minima quam delectus a nisi
+        </p>
+      </div>
+      <div class="content">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+          reiciendis expedita itaque odit, enim ex minima quam delectus a nisi
         </p>
       </div>
     </div>
