@@ -4,7 +4,7 @@
     font-family: 'PT Serif', serif;
 */
 
-/* HEADER */
+/*
 header {
   text-align: center;
 }
@@ -30,7 +30,7 @@ p {
   margin-top: 25px;
 }
 
-/* BODY*/
+
 .container {
   width: 90%;
   max-width: 39rem;
@@ -39,4 +39,49 @@ p {
 
 .lead {
   font-size: 1.3em;
+}
+
+*/
+
+body {
+  font-family: "PT Serif", serif;
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #414141;
+}
+
+a {
+  color: crimson;
+}
+
+header {
+  max-width: 75rem;
+  text-align: center;
+  margin: 6rem auto;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 0.9;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  color: #7d7d7d;
+}
+
+.lead {
+  font-size: 1.3125rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 39rem;
+  margin: 0 auto;
 }
