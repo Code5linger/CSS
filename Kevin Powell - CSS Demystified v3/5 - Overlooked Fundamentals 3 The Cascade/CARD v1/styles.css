@@ -30,7 +30,7 @@ h1 {
   border-radius: 1em;
   margin: 0 0.5em;
 
-  box-shadow: 1px 1px black;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .plan__title {
@@ -41,8 +41,12 @@ h1 {
 .plan__price {
   font-size: 3rem;
   font-weight: 900;
-  color: #00cdac;
+  color: white;
   margin: 0;
+}
+
+.text__accent {
+  color: #00a1ab;
 }
 
 .plan__price span {
@@ -76,7 +80,8 @@ h1 {
 
 .plans__light {
   color: #000;
-  background: white;
+  /* background: white; */
+  background: rgb(240, 240, 240);
 }
 
 .plan_accent {
