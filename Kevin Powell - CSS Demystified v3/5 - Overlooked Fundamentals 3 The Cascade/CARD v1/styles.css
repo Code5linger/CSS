@@ -25,12 +25,14 @@ h1 {
 }
 
 .plan {
-  color: #fff;
-  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+  color: #000;
+  background: white;
   width: 200px;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
+
+  box-shadow: 1px 1px black;
 }
 
 .plan__title {
@@ -41,6 +43,7 @@ h1 {
 .plan__price {
   font-size: 3rem;
   font-weight: 900;
+  color: #00cdac;
   margin: 0;
 }
 
@@ -56,11 +59,35 @@ h1 {
 }
 
 .plan__button {
-  background: white;
-  color: #4e4e4e;
+  /* background: white; */
+  /* color: #4e4e4e; */
+  color: white;
+  background: #4e4e4e;
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 0.25em;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+/* Alternate Card */
+.plan_alt {
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+}
+
+.plan_alt .plan__button {
+  background: white;
+  color: #4e4e4e;
+}
+
+.plan_alt .plan__title {
+  color: white;
+}
+
+.plan_alt .plan__description {
+  color: white;
+}
+
+.plan_alt .plan__price {
+  color: white;
 }
