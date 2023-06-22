@@ -57,6 +57,8 @@ section {
 .bg-light {
   --bg: var(--clr-neutral-400);
   --fg: var(--clr-neutral-100);
+  --pop: var(--clr-primary-400);
+
   color: var(--clr-neutral-400);
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
 }
@@ -64,11 +66,15 @@ section {
 .bg-accent {
   --bg: var(--clr-neutral-100);
   --fg: var(--clr-neutral-400);
+  --pop: var(--clr-neutral-100);
+
   color: var(--clr-neutral-100);
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
 }
 
 .bg-dark {
+  --pop: yellow;
+
   color: var(--clr-neutral-100);
   background: #4e4e4e;
 }
@@ -125,6 +131,7 @@ section {
   line-height: 1;
   font-weight: 900;
   margin: 0;
+  color: var(--pop, red);
 }
 
 .plan__price span {
