@@ -181,3 +181,12 @@ section {
   font-weight: 700;
   opacity: 0.8;
 }
+
+.team-member--mirrored {
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+.team-member--mirrored img {
+  order: 2; /* 🤯🤯*/
+  margin-right: 0;
+  margin-left: 1em;
+}
