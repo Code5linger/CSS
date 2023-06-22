@@ -17,11 +17,15 @@ body {
   text-align: center;
 }
 
+section {
+  padding: 6rem 0;
+}
+
 .section-title {
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 900;
-  margin-top: 3em;
+  margin: 3em;
   margin-bottom: 0;
   color: #00a1ab;
 }
@@ -129,6 +133,9 @@ body {
 /* ///////////////
   Teams
   ////////////// */
+.team {
+  background-color: #e5e3e8;
+}
 
 .team-members {
   display: flex;
