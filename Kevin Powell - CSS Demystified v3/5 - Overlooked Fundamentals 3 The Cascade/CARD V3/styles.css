@@ -73,7 +73,7 @@ body {
 }
 
 .plan {
-  width: 200px;
+  width: 16.5rem;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
@@ -136,17 +136,47 @@ body {
 }
 
 .team-member {
-  background: #abc;
   text-align: left;
   flex: 1 1 45%;
   margin: 1em;
   display: flex;
-  border-radius: 0.5em;
+  border-radius: 1em;
   align-items: center;
   padding: 0.5em 2em 0.5em 0.5em;
+}
+.team-member .name {
+  font-size: 1.5rem;
+}
+
+.team-member .position {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.team__light {
+  background: #e5e3e8;
+  text-align: right;
+}
+
+.team__light .name {
+  color: #00a1ab;
+}
+
+.team-member .name {
+  margin-bottom: 0;
+}
+
+.team-member .position {
+  margin-top: 0;
+}
+
+.team__dark {
+  background-color: #4e4e4e;
+  color: white;
 }
 
 .team-member img {
   width: 10rem;
-  border-radius: 0.25em;
+  border-radius: 1em;
+  margin-right: 2em;
 }
