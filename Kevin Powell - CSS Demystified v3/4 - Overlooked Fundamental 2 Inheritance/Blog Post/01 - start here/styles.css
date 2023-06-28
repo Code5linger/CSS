@@ -28,19 +28,20 @@
 - Body: 18px                            1.125
 */
 
+/* My Code */
+
+body {
+  text-align: center;
+  /* justify-content: start; */
+  font-size: 1.125rem;
+  color: #414141;
+}
+
 /* Default */
 .container {
   width: 90%;
   max-width: 39rem;
   margin: 0 auto;
-}
-
-/* My Code */
-
-body {
-  text-align: center;
-  font-size: 1.125rem;
-  color: #414141;
 }
 
 h1 {
