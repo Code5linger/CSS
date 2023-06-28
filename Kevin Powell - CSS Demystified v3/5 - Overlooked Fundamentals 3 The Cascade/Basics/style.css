@@ -1,7 +1,15 @@
-.red {
+body {
+  font-size: 3rem;
+  margin: 0 auto;
+
+  background: red;
+  background: cornflowerblue;
+}
+
+/* .red {
   background: red;
 }
 
 .blue {
   background: blueviolet;
-}
+} */
