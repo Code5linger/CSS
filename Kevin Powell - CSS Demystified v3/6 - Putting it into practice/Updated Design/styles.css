@@ -28,7 +28,7 @@ body {
 
 .fs-500 {
   font-size: 1.3125rem;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .container {
@@ -73,10 +73,10 @@ body {
 }
 
 .plan {
-  width: 200px;
+  width: 16rem;
   padding: 2em;
   border-radius: 1em;
-  margin: 0 0.5em;
+  margin: 0;
 }
 
 .plan--light {
@@ -101,6 +101,20 @@ body {
 .plan--accent .button {
   background: white;
   color: #4e4e4e;
+}
+
+.plan--dark {
+  color: white;
+  background: #4e4e4e;
+}
+
+.plan--dark .plan__price {
+  color: white;
+}
+
+.plan--dark .button {
+  color: white;
+  background: #00a1ab;
 }
 
 .plan__title {
@@ -129,6 +143,9 @@ body {
 /* ///////////////
   Teams
   ////////////// */
+.team {
+  background-color: rgb(243, 250, 255);
+}
 
 .team-members {
   display: flex;
@@ -136,8 +153,8 @@ body {
 }
 
 .team-member {
-  background: #abc;
   text-align: left;
+  /* line-height: 0; */
   flex: 1 1 45%;
   margin: 1em;
   display: flex;
@@ -146,7 +163,48 @@ body {
   padding: 0.5em 2em 0.5em 0.5em;
 }
 
+.team-dark {
+  color: white;
+  background: #4e4e4e;
+}
+
+.team-light {
+  color: #4e4e4e;
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+}
+
+.team-light .name {
+  color: #00a1ab;
+  line-height: 0;
+  font-size: 1.7rem;
+}
+
+.team-dark .name {
+  line-height: 0;
+  font-size: 1.7rem;
+}
+
+.team-light .position {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 0;
+}
+
+.team-dark .position {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 0;
+}
+
 .team-member img {
   width: 10rem;
-  border-radius: 0.25em;
+  border-radius: 0.5em;
+}
+
+.info {
+  margin: 0 1rem;
+}
+
+.team-light img {
+  order: 1;
 }
