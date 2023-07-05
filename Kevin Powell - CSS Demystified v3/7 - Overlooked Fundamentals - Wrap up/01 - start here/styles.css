@@ -25,6 +25,72 @@
   --border-radius: 0.75rem;
 }
 
+.candidate {
+  border-radius: var(--border-radius);
+}
+
+.candidate img {
+  border-radius: var(--border-radius);
+  margin: 0.6em;
+}
+
+.candidate .name {
+  font-family: var(--ff-accent);
+  color: var(--clr-base-500);
+  line-height: 0;
+}
+
+.tag {
+  font-family: var(--ff-base);
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0.3em;
+  border-radius: var(--border-radius);
+}
+
+.roles {
+  margin: 0;
+}
+
+.roles .tag-ui {
+  background-color: var(--clr-ui-300);
+  color: var(--clr-ui-400);
+}
+
+.roles .tag-ux {
+  background-color: var(--clr-ux-300);
+  color: var(--clr-ux-400);
+}
+
+.roles .tag-dev {
+  background-color: var(--clr-dev-300);
+  color: var(--clr-dev-400);
+}
+
+.bio {
+  font-family: var(--ff-base);
+  color: ;
+}
+
+.candidate .btn {
+  flex-direction: row;
+  align-items: end;
+  font-family: var(--ff-base);
+  color: var(--clr-dev-300);
+  font-size: 1.2em;
+  text-decoration: none;
+  width: 60px;
+  background-color: var(--clr-accent-400);
+  text-align: center;
+  padding: 0.1em;
+  border-radius: var(--border-radius);
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
 /* /////////////////
    Layout related
    no need to touch any of this
@@ -48,7 +114,7 @@
     "role role"
     "bio bio"
     "button button";
-  gap: 0.5em;
+  /* gap: 0.5em; */
   box-shadow: var(--shadow);
   border-radius: var(--border-radius);
 }
