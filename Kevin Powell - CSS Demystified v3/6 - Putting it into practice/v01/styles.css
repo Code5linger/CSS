@@ -58,6 +58,7 @@ section {
 .bg-light {
   --bg: var(--clr-neutral-400);
   --fg: var(--clr-neutral-100);
+  --pop: var(--clr-primary-400);
 
   color: var(--clr-neutral-400);
   background: linear-gradient(
@@ -70,12 +71,19 @@ section {
 .bg-accent {
   --bg: var(--clr-neutral-100);
   --fg: var(--clr-neutral-400);
+  --pop: var(--clr-neutral-100);
 
   color: var(--clr-neutral-100);
-  background: linear-gradient(-45deg, var(--clr-primary-400), #3741a0);
+  background: linear-gradient(
+    -45deg,
+    var(--clr-primary-400),
+    var(--clr-primary-500)
+  );
 }
 
 .bg-dark {
+  /* --pop: yellow; */
+
   color: var(--clr-neutral-100);
   background: var(--clr-neutral-400);
 }
@@ -132,6 +140,7 @@ section {
   line-height: 1;
   font-weight: 900;
   margin: 0;
+  color: var(--pop);
 }
 
 .plan__price span {
@@ -165,9 +174,25 @@ section {
   border-radius: 0.5em;
   align-items: center;
   padding: 0.5em 2em 0.5em 0.5em;
+  line-height: 1.6;
 }
 
 .team-member img {
   width: 10rem;
   border-radius: 0.25em;
+  margin-right: 1em;
+}
+
+.team-member .name {
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--pop);
+  margin: 0;
+}
+
+.team-member .position {
+  margin-top: 0;
+  font-weight: 700;
+  opacity: 0.8;
 }
