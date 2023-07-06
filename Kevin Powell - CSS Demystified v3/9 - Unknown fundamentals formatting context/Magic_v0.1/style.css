@@ -14,10 +14,11 @@ body {
 }
 
 .hero {
+  display: flow-root;
   background-image: url(./assets/hero.jpg);
   background-size: cover;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  /* padding-top: 10rem;
+  padding-bottom: 10rem; */
 }
 
 .hero__content {
@@ -26,4 +27,7 @@ body {
   padding: 3rem 2rem;
   margin: 0 auto;
   text-align: center;
+
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
