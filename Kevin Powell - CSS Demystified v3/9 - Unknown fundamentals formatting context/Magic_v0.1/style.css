@@ -1,0 +1,17 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.hero {
+  background-image: url(./assets/hero.jpg);
+}
