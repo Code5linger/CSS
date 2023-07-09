@@ -2,23 +2,33 @@
 font-family: 'PT Sans', sans-serif; 
 */
 
+/* CSS Reset */
+
+*,
+**::before,
+**::after {
+  box-sizing: border-box;
+}
+
+/* General Styling */
 body {
   font-family: "PT Sans", sans-serif;
+  font-size: 1.25rem;
   font-weight: 500;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .hero {
-  /* display: flex; */
   background-image: url(./assets/hero.jpg);
-  padding: 10em 0em;
+  background-size: cover;
+
+  padding: 10em 10em;
 }
 
 .hero__content {
-  max-width: 600px;
-  background-color: rgba(255, 255, 0, 0.5);
+  background-color: rgba(255, 255, 255, 1);
   text-align: center;
-
-  /* magin: 0 5em; */
-  /* max-width: 5rem; */
+  padding: 3rem 2rem;
+  max-width: 48rem;
+  margin: 0 auto;
 }
