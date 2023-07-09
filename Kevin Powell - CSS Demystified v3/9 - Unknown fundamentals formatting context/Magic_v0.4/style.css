@@ -9,6 +9,18 @@ font-family: 'PT Sans', sans-serif;
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* Utility Classes */
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+
 /* General Styling */
 
 body {
@@ -18,13 +30,24 @@ body {
   margin: 0 auto;
 }
 
-.hero {
-  display: flow-root;
+h1 {
+  font-weight: 400;
+}
 
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.5em 1.5em;
+  background-color: #59e89c;
+}
+
+.hero {
   background-image: url(./assets/hero.jpg);
   background-size: cover;
-  /* padding-top: 10rem;
-  padding-bottom: 10rem; */
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .hero__content {
