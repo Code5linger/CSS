@@ -12,13 +12,18 @@ font-family: 'PT Sans', sans-serif;
   padding: 0; */
 }
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
 p {
   margin: 0;
-} */
+}
+
+/* Utility */
+.flow-content > * + * {
+  margin-top: 1rem;
+}
 /* General CSS */
 body {
   font-family: "PT Sans", sans-serif;
@@ -56,9 +61,9 @@ body {
   color: crimson;
 } */
 
-.flow-content > * + * {
+/* .flow-content > * + * {
   margin-top: 1rem;
-}
+} */
 
 .btn {
   text-decoration: none;
