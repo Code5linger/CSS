@@ -2,20 +2,42 @@
 font-family: 'PT Sans', sans-serif; 
 */
 
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* General Styling */
 body {
   font-family: "PT Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
   margin: 0;
 }
 
+/* CSS */
 .hero {
   background-image: url(./assets/hero.jpg);
   background-size: cover;
-  padding: 10em;
+  padding: 10em 0;
 }
 
 .hero__content {
   background-color: #fff;
   text-align: center;
-  min-width: 8rem;
+  width: 50rem;
   padding: 2rem 3rem;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: aquamarine;
+  color: #000000;
+  text-decoration: none;
+  padding: 1rem 2rem;
 }
