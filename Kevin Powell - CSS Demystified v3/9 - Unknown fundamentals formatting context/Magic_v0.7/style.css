@@ -1,0 +1,55 @@
+/* Font used
+font-family: 'PT Sans', sans-serif; 
+*/
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* Test */
+  /* margin: 0;
+  padding: 0; */
+}
+
+/* General CSS */
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.hero {
+  /* display: flow-root; */
+
+  background-image: url(./assets/hero.jpg);
+  background-size: cover;
+  padding: 10rem 0;
+}
+
+.hero__content {
+  background-color: #fff;
+  max-width: 48rem;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  text-align: center;
+  /* 
+  margin-top: 10rem;
+  margin-bottom: 10rem; */
+}
+
+/* .hero__content .thic {
+  display: inline-block;
+  font-weight: 600;
+  color: crimson;
+} */
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: aquamarine;
+  color: black;
+  display: inline-block;
+  padding: 1rem 2rem;
+}
