@@ -33,8 +33,17 @@ p {
   margin: 0;
 }
 
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 img {
+  display: block;
   max-width: 100%;
+  height: auto;
 }
 
 /* Utility classes */
@@ -42,6 +51,20 @@ img {
   margin-top: 1.25rem;
 }
 
+.container {
+  padding: 0 var(--spacer);
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.bg-dark {
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-900);
+}
+
+.text-accent {
+  color: var(--clr-accent-400);
+}
 /* general styling */
 
 body {
@@ -49,9 +72,7 @@ body {
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--clr-neutral-900);
-  margin: 0 auto;
-  width: 1200px;
-  background-color: #cfcfcf;
+  margin: 0;
 }
 
 h1 {
@@ -73,4 +94,10 @@ h1 span {
   padding: 0.75em 1.5em;
   background-color: var(--clr-accent-400);
   color: var(--clr-neutral-900);
+}
+
+/*  General Layout */
+
+section {
+  padding: 4.125rem 0;
 }
