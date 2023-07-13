@@ -47,7 +47,7 @@ img {
 
 /* Utility classes */
 .flow-content > * + * {
-  margin-top: 1.25rem;
+  margin-top: var(--flow-space, var(--spacer));
 }
 
 .container {
@@ -136,8 +136,16 @@ section {
 }
 
 /* Individual Section */
+.join-now {
+  --flow-space: 2rem;
+}
+
+.hero {
+  --flow-space: 3rem;
+}
 
 .cta {
+  --flow-space: 3rem;
   background-image: url(./assets/cta-bg.jpg);
   background-size: cover;
   text-align: center;
