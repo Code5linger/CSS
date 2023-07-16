@@ -33,10 +33,24 @@ p {
   margin: 0;
 }
 
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Utility classes */
 .flow-content > * + * {
-  margin-top: 1.25rem;
+  margin-top: var(--flow-space, var(--spacer));
 }
+
+
 
 /* general styling */
 
