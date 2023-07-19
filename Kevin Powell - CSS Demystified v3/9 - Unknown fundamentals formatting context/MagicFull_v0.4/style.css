@@ -57,6 +57,26 @@ img {
   margin: 0 auto;
 }
 
+.split {
+  display: flex;
+  flex-direction: column;
+  /* gap: var(--spacer); */
+}
+
+.split > * + * {
+  margin: calc(var(--spacer) * 3) 0 0 0;
+}
+
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+
+  .split > * + * {
+    margin: 0 0 0 var(--spacer);
+  }
+}
+
 .dark-bg {
   background-color: var(--clr-neutral-900);
   color: var(--clr-neutral-100);
@@ -65,9 +85,10 @@ img {
 .text-accent {
   color: var(--clr-accent-400);
 }
-/* .split {
+
+.split {
   display: flex;
-} */
+}
 
 /* general styling */
 
@@ -104,4 +125,10 @@ h1 span {
 
 section {
   padding: 8.125rem 0;
+}
+
+@media (min-width: 40em) {
+  section {
+    padding: 8.125rem 0;
+  }
 }
