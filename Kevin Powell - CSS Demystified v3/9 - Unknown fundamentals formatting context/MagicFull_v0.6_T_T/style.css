@@ -66,12 +66,20 @@ ol {
 .split {
   display: flex;
   flex-direction: column;
-  gap: var(--spacer);
+  /* gap: var(--spacer); */
+}
+
+.split > * + * {
+  margin: calc(var(--spacer) * 2) 0 0 0;
 }
 
 @media (min-width: 40em) {
   .split {
     flex-direction: row;
+  }
+
+  .split > * + * {
+    margin: 0 0 0 var(--spacer);
   }
 }
 
@@ -115,4 +123,10 @@ h1 span {
 
 section {
   padding: 8.125rem 0;
+}
+
+@media (min-width: 40em) {
+  section {
+    padding: 8.125em;
+  }
 }
