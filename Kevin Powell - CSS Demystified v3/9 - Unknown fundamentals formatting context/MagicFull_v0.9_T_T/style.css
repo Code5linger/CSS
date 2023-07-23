@@ -74,6 +74,10 @@ ol {
   padding: 0 var(--spacer); /* 👀👀 */
 }
 
+.shadow {
+  box-shadow: var(--box-shadow);
+}
+
 .bg-dark {
   background-color: var(--clr-neutral-900);
   color: var(--clr-neutral-100);
@@ -121,4 +125,23 @@ section {
   section {
     padding: 8.125rem 0;
   }
+}
+
+/* Components */
+
+.join-now li::before {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--clr-accent-400);
+  position: absolute;
+  transform: translate(-0.5rem, -0.5rem);
+  z-index: -1;
+}
+
+.cta {
+  background-image: url(./assets/cta-bg.jpg);
+  background-size: cover;
+  text-align: center;
 }
