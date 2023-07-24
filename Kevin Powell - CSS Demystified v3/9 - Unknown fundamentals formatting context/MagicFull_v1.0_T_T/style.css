@@ -63,7 +63,7 @@ ol {
 }
 
 .split > * + * {
-  margin: var(--spacer) 0 0 0;
+  margin: calc(var(--spacer) * 2) 0 0 0;
 }
 
 @media (min-width: 40rem) {
