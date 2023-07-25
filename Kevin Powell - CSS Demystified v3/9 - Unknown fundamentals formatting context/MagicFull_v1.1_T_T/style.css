@@ -50,9 +50,9 @@ ul {
 }
 
 .container {
+  padding: 0 var(--spacer);
   max-width: 70rem;
   margin: 0 auto;
-  padding: 0 var(--spacer);
 }
 
 .split {
