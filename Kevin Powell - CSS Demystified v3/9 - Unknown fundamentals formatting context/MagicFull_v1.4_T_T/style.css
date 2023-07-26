@@ -57,7 +57,7 @@ ol {
 }
 
 .split > * + * {
-  margin: var(--spacer) 0 0 0;
+  margin: calc(var(--spacer) * 2) 0 0 0;
 }
 
 @media (min-width: 40rem) {
@@ -120,5 +120,27 @@ h1 span {
 /* Individual Section*/
 
 section {
-  padding: 8.125rem 0;
+  padding: 4.125rem 0;
+}
+
+@media (min-width: 40rem) {
+  section {
+    padding: 8.125rem 0;
+  }
+}
+
+.cta {
+  background-image: url(./assets/cta-bg.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.join-now li::before {
+  content: "";
+  height: 5rem;
+  width: 5rem;
+  background-color: var(--clr-accent-400);
+  position: absolute;
+  transform: translate(-0.5rem, -0.5rem);
+  z-index: -1;
 }
