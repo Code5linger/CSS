@@ -70,9 +70,9 @@ ol {
 }
 
 .container {
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
-  padding: var(--spacer);
+  padding: 0 var(--spacer);
 }
 
 .shadow {
@@ -130,6 +130,8 @@ section {
   }
 }
 
+/* Sections */
+
 .cta {
   background-image: url(./assets/cta-bg.jpg);
   background-size: cover;
@@ -137,5 +139,12 @@ section {
 }
 
 .join-us li::before {
-  background-color: crimson;
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--clr-accent-400);
+  position: absolute;
+  z-index: -1;
+  transform: translate(-0.5rem, -0.5rem);
 }
