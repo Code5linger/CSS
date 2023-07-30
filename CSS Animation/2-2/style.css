@@ -1,0 +1,19 @@
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+button {
+  height: 10rem;
+  width: 16rem;
+  color: white;
+  font-size: 2rem;
+  background-color: purple;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 3s;
+}
+
+button:hover {
+  background-color: crimson;
+}
