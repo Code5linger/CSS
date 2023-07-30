@@ -54,7 +54,11 @@ ol {
 }
 
 .flow-content > * + * {
-  margin-top: 1.25rem;
+  margin-top: var(--flow-space, var(--spacer));
+}
+
+.flow-content--large {
+  --flow-space: 3rem;
 }
 
 .split {
@@ -130,4 +134,25 @@ section {
   section {
     padding: 8.125rem 0;
   }
+}
+
+/* General Components */
+.cta {
+  background-image: url(./assets/cta-bg.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.--flow-space--large {
+  --spacer: 3rem;
+}
+
+.join-us li::before {
+  content: "";
+  height: 5rem;
+  width: 5rem;
+  background-color: var(--clr-accent-400);
+  position: absolute;
+  transform: translate(-0.5rem, -0.5rem);
+  z-index: -1;
 }
