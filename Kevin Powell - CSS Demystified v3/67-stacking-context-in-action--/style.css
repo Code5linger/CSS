@@ -13,17 +13,17 @@ body {
 
 .content {
   position: relative;
+  z-index: 0;
+}
 
-  /* 🙅‍♂️ */
+p {
   background-color: white;
   padding: 5rem;
   font-size: 1.5rem;
   max-width: 50rem;
+  position: relative;
   margin: 0 auto;
-}
-
-p {
-  background-color: palevioletred;
+  z-index: -2;
 }
 
 .content ::before {
@@ -32,8 +32,8 @@ p {
   left: -1em;
   content: "";
   display: block;
-  width: 350px;
-  height: 370px;
+  width: 300px;
+  height: 300px;
   background: crimson;
-  z-index: -1;
+  z-index: 9;
 }
