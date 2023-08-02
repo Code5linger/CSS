@@ -154,6 +154,10 @@ header {
 @media (min-width: 40em) {
   header {
     position: sticky;
+
+    /* position: fixed;
+    width: 100%; */
+
     z-index: 1000;
     top: 0;
   }
@@ -189,6 +193,12 @@ section {
 @media (min-width: 40em) {
   section {
     padding: 8.125rem 0;
+  }
+}
+
+@media (min-width: 40em) {
+  .hero {
+    padding: 0;
   }
 }
 
