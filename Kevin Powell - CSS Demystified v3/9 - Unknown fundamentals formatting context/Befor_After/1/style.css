@@ -16,16 +16,22 @@ body {
 
 p::before {
   content: "hello";
+  color: white;
   background: crimson;
-  /* display: block; */
-  width: 10px;
-  height: 10px;
+  display: block;
+  font-size: 20px;
+  /* width: 10px;
+  height: 10px; */
 }
 
 p::after {
-  content: " hi";
+  content: "hi";
+  text-align: end;
+  color: white;
   background: crimson;
-  /* display: block; */
-  width: 10px;
-  height: 10px;
+  text-transform: uppercase;
+  display: block;
+  font-size: 20px;
+  /* width: 10px;
+  height: 10px; */
 }
