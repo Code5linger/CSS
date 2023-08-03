@@ -7,22 +7,22 @@ body {
 }
 
 p::before {
-  content: "H1";
+  content: "";
   display: block;
-  /* height: 2rem;
-  width: 2rem; */
+  height: 2rem;
+  width: 2rem;
   background-color: crimson;
-  color: white;
+  color: greenyellow;
   font-size: 2rem;
 }
 
 p::after {
-  content: "Bye";
+  content: "01001";
   display: block;
   /* height: 2rem;
   width: 2rem; */
   background-color: crimson;
-  color: white;
+  color: greenyellow;
   text-align: end;
   font-size: 2rem;
 }
