@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+p::before {
+  content: "H1";
+  display: block;
+  /* height: 2rem;
+  width: 2rem; */
+  background-color: crimson;
+  color: white;
+  font-size: 2rem;
+}
+
+p::after {
+  content: "Bye";
+  display: block;
+  /* height: 2rem;
+  width: 2rem; */
+  background-color: crimson;
+  color: white;
+  text-align: end;
+  font-size: 2rem;
+}

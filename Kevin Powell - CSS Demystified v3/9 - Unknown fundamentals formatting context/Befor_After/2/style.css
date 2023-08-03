@@ -9,7 +9,7 @@ body {
 p::before {
   content: "Hi!";
   display: block;
-  color: crimson;
+  color: white;
   background-color: black;
   text-align: start;
   font-size: 2rem;
@@ -20,10 +20,20 @@ p::before {
 p::after {
   content: "Hello!";
   display: block;
-  color: crimson;
+  color: white;
   background-color: black;
   text-align: end;
   font-size: 2rem;
   /* height: 1rem;
   width: 1rem; */
 }
+
+/* p .test::after {
+  content: "";
+  height: 2rem;
+  width: 2rem;
+  background-color: crimson;
+  position: absolute;
+  transform: translate(-0.5rem, -0.5rem);
+  z-index: -1;
+} */
