@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+/* img::before {
+  content: "";
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: purple;
+} */
+
+p::before {
+  content: "hello";
+  background: crimson;
+  /* display: block; */
+  width: 10px;
+  height: 10px;
+}
+
+p::after {
+  content: " hi";
+  background: crimson;
+  /* display: block; */
+  width: 10px;
+  height: 10px;
+}
