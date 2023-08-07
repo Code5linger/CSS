@@ -33,6 +33,7 @@ p::after {
 img {
   /* height: auto; */
   width: 3rem;
+  margin-top: 1rem;
 }
 
 img::before {
