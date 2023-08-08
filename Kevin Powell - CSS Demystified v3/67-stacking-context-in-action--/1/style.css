@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  position: absolute;
+}
+
+.a {
+  background-color: azure;
+  padding: 3rem 5rem;
+  z-index: 5;
+  transform: translate(40%, 55%);
+}
+
+.b {
+  background-color: blue;
+  padding: 4rem 6rem;
+  z-index: 4;
+  transform: translate(25%, 28%);
+}
+
+.c {
+  background-color: cadetblue;
+  padding: 5rem 7rem;
+  z-index: 3;
+  transform: translate(14%, 15%);
+}
+
+.d {
+  background-color: darkblue;
+  padding: 6rem 8rem;
+  z-index: 2;
+  transform: translate(6%, 6%);
+}
+
+.e {
+  background-color: fuchsia;
+  padding: 7rem 9rem;
+}
