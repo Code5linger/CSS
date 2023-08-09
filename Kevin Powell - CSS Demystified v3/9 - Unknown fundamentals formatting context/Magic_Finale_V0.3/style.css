@@ -118,6 +118,11 @@ body {
   margin: 0;
 }
 
+h2,
+.h2 {
+  font-size: var(--fs-700);
+}
+
 h1 {
   font-weight: 400;
 }
