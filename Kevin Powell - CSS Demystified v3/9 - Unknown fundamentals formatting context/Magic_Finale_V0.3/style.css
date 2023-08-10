@@ -268,3 +268,22 @@ section {
   background-size: cover;
   text-align: center;
 }
+
+.testimonials {
+  text-align: center;
+}
+
+.testimonial {
+  text-align: left;
+  padding: calc(var(--spacer) * 2);
+}
+
+.testimonial > p:first-of-type {
+  font-style: italic;
+}
+
+.testimonial .name {
+  font-weight: var(--fw-700);
+  margin-top: 4em;
+  color: var(--accent);
+}
