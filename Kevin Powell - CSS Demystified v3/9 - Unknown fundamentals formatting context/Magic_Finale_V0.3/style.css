@@ -99,7 +99,7 @@ img {
   }
 
   .split > * + * {
-    margin: 0 0 0 var(--spacer);
+    margin: 0 0 0 var(--gap, var(--spacer));
   }
 }
 
@@ -242,6 +242,10 @@ section {
 
 /* individual sections */
 
+.hero {
+  --gap: 3rem;
+}
+
 .hero img {
   transform: translateY(2em);
 }
@@ -270,6 +274,7 @@ section {
 }
 
 .testimonials {
+  --gap: 4rem;
   text-align: center;
 }
 
@@ -284,6 +289,6 @@ section {
 
 .testimonial .name {
   font-weight: var(--fw-700);
-  margin-top: 4em;
+  margin-top: 2.5em;
   color: var(--accent);
 }
