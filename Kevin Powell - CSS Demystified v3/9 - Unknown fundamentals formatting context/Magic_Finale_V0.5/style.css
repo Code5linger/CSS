@@ -129,6 +129,27 @@ img {
   color: var(--clr-accent-400);
 }
 
+.corner-square {
+  position: relative;
+}
+
+.corner-square:nth-of-type(2n) {
+  --accent: var(--clr-neutral-900);
+}
+
+.corner-square::before {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background: var(--accent, var(--clr-accent-400));
+  position: absolute;
+  left: -0.5em;
+  top: -0.5em;
+  z-index: -1;
+  /* transform: translate(-0.5rem, -0.5rem); */
+}
+
 /* general styling */
 
 body {
@@ -253,17 +274,6 @@ section {
   }
 }
 
-.join-now li::before {
-  content: "";
-  display: block;
-  width: 5rem;
-  height: 5rem;
-  background: var(--clr-accent-400);
-  position: absolute;
-  z-index: -1;
-  transform: translate(-0.5rem, -0.5rem);
-}
-
 .cta {
   /* background-image: url(assets/cta-bg.jpg); */
   background-size: cover;
@@ -285,3 +295,7 @@ section {
   color: var(--accent);
   margin-top: calc(var(--spacer) * 3);
 }
+
+/* .testimonial.bg-accent {
+  --accent: var(--clr-neutral-900);
+} */
