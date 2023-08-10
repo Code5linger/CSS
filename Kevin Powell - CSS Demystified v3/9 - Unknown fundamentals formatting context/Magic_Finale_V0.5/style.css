@@ -265,3 +265,18 @@ section {
   background-size: cover;
   text-align: center;
 }
+
+.testimonials {
+  text-align: center;
+}
+
+.testimonial {
+  text-align: left;
+  padding: calc(var(--spacer) * 3);
+}
+
+.testimonial .name {
+  font-weight: var(--fw-700);
+  color: var(--accent);
+  margin-top: calc(var(--spacer) * 3);
+}
