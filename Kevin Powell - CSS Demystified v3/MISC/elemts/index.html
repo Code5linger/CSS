@@ -4,6 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="./script.js"></script>
+
+    <!-- JS -->
+    <script>
+      function PromptUser() {
+        var txt;
+        var name = window.prompt("Enter your name: ");
+        if (name != null) {
+          txt = "Hello " + name;
+        }
+        document.getElementById("name").innerHTML = txt;
+      }
+    </script>
+    <style>
+      button {
+        padding: 1rem 3rem;
+        margin-top: 2rem;
+      }
+    </style>
+
+    <!-- <script>
+      function ShowDate() {
+        document.getElementById("demo").innerHTML = Date();
+        console.log("Yo!");
+      }
+    </script> -->
   </head>
   <body>
     <div class="audio-test-2">
@@ -24,11 +50,18 @@
     </form>
     <!--  -->
     <!--  -->
-    <video width="600" height="800" controls controlslist="nodownload">
+
+    <!-- <video width="600" height="800" controls controlslist="nodownload">
       <source src="./assets/videos.mp4" type="video/mp4" />
       Lorem ipsum dolor sit amet
-    </video>
+    </video> -->
+
     <!--  -->
     <!--  -->
+    <button type="button" onclick="showDate()">Today's Date</button>
+    <p id="demo"></p>
+
+    <button type="button" onclick="PromptUser()">Test</button>
+    <p id="name"></p>
   </body>
 </html>
