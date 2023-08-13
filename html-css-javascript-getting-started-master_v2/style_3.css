@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: #999;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-image: url(./images/background.png);
+  min-height: 90%;
+  /* padding: 5rem 5rem; */
+  padding: 2.5rem 0 2.5rem 0;
+}
+
+@media (min-width: 40rem) {
+  main {
+    flex-direction: row;
+    padding: 0 2rem;
+  }
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+
+header nav .menu-list {
+  background-color: #a493c0;
+  padding: 0.7rem;
+}
+
+a:visited,
+a:link {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  color: white;
+}
+
+aside {
+  text-align: center;
+  padding: 0 3rem;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 1rem 0;
+}
+
+p {
+  font-size: 1.5em;
+  background-color: white;
+  padding: 1rem;
+}
+
+p a:link {
+  font-size: 1em;
+  color: blue;
+  text-decoration: underline;
+}
