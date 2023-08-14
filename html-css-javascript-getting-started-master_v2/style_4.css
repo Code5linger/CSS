@@ -58,9 +58,8 @@ footer {
 
 aside,
 article {
-  /* padding: 2em; */
+  padding: 2em;
   margin: 0 auto;
-  padding: 1rem 0;
 }
 
 aside {
