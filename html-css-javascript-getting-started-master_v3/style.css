@@ -32,7 +32,18 @@ main {
   justify-content: center; */
   background-image: url(./images/background.png);
   height: 89.2%;
-  padding: 0 2rem;
+  padding: 2rem;
+}
+
+article {
+  /* width: 60%; */
+  max-width: 50rem;
+  /* align-items: end; */
+  margin-left: 4rem;
+}
+
+aside {
+  min-width: 10rem;
 }
 
 h1 {
@@ -48,7 +59,7 @@ p {
 
 /* Navigation */
 header {
-  background: crimson;
+  background: #a493c0;
 }
 
 nav {
@@ -92,5 +103,12 @@ li > a {
 
   aside {
     padding: 4rem 7rem;
+  }
+
+  article {
+    /* width: 60%; */
+    max-width: 50rem;
+    /* align-items: end; */
+    margin-left: 0rem;
   }
 }
