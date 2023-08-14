@@ -70,6 +70,14 @@ article {
   width: 75%;
 }
 
+.col-desk {
+  display: flex;
+}
+
+.columns {
+  display: flex;
+}
+
 @media only screen and (min-width: 768px) {
   main {
     display: flex;
