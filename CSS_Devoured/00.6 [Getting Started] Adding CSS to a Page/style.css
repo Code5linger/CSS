@@ -1,0 +1,9 @@
+@import url(./more-style.css);
+
+h1 {
+  background-color: red;
+}
+
+p {
+  color: white;
+}
