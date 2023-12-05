@@ -10,23 +10,64 @@
         background-color: black;
         color: white;
       }
+
+      fieldset {
+        border-color: crimson;
+        border-width: 3px;
+      }
+
+      fieldset > legend {
+        font-size: 1.5rem;
+        color: #a593c2;
+      }
     </style>
   </head>
   <body>
-    <h1>Test</h1>
+    <h1>Test &rArr;</h1>
     <form action="search.html" enctype="multipart/form-data" method="GET">
       <input name="Search" type="text" />
       <input type="submit" />
     </form>
     <!--  -->
-    <h1>Contact</h1>
-    <form
-      action="./contact.html"
-      method="GET"
-      enctype="application/x-www-form-urlencoded"
-    >
-      Something: <input type="text" /> <br /><br />
-      <input type="submit" name="" id="" />
-    </form>
+    <br />
+    <fieldset>
+      <legend>Contact &lt;</legend>
+      <h1>Contact</h1>
+      <form
+        action="./contact.html"
+        method="GET"
+        enctype="application/x-www-form-urlencoded"
+      >
+        Something: <input type="text" />
+        <input type="submit" name="" id="" />
+      </form>
+    </fieldset>
+    <!--  -->
+    <br />
+    <fieldset>
+      <legend>Table using Lebel &copy;</legend>
+      <label for="firtName">First Name</label>
+      <input type="text" id="firstName" /><br />
+      <label for="firtName">First Name</label>
+      <input type="text" id="firstName" /><br />
+      <label for="firtName">First Name</label>
+      <input type="email" id="firstName" /><br />
+      <input type="submit" />
+    </fieldset>
+    <!--  -->
+    <br />
+    <fieldset>
+      <legend>Lebel v2</legend>
+      <p>
+        <label for="firtName">First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+      </p>
+      <p>
+        <input type="submit" name="" id="" />
+      </p>
+    </fieldset>
+    <!--  -->
+    <br />
+    <fieldset><legend>Test</legend></fieldset>
   </body>
 </html>
