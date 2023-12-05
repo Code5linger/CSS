@@ -7,25 +7,39 @@
     <title>Document</title>
     <style>
       * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      * {
         background-color: black;
         color: white;
       }
 
       fieldset {
-        border-color: crimson;
+        border-color: white;
         border-width: 3px;
       }
 
       fieldset > legend {
         font-size: 1.5rem;
-        color: #a593c2;
+        color: white;
+      }
+
+      input.valid {
+        border-color: aquamarine;
+      }
+
+      input.invalid {
+        border-color: crimson;
       }
     </style>
   </head>
   <body>
     <h1>Test &rArr;</h1>
     <form action="search.html" enctype="multipart/form-data" method="GET">
-      <input name="Search" type="text" />
+      <input name="Search" type="text" required />
       <input type="submit" />
     </form>
     <!--  -->
@@ -38,7 +52,7 @@
         method="GET"
         enctype="application/x-www-form-urlencoded"
       >
-        Something: <input type="text" />
+        Something: <input type="text" required />
         <input type="submit" name="" id="" />
       </form>
     </fieldset>
@@ -46,8 +60,8 @@
     <br />
     <fieldset>
       <legend>Table using Lebel &copy;</legend>
-      <label for="firtName">First Name</label>
-      <input type="text" id="firstName" /><br />
+      <label for="firtName">*First Name</label>
+      <input type="text" id="firstName" required /><br />
       <label for="firtName">First Name</label>
       <input type="text" id="firstName" /><br />
       <label for="firtName">First Name</label>
@@ -68,6 +82,21 @@
     </fieldset>
     <!--  -->
     <br />
-    <fieldset><legend>Test</legend></fieldset>
+    <fieldset>
+      <legend>Test</legend>
+      <img src="./22861579.gif" width="500" height="auto" alt="" srcset="" />
+    </fieldset>
+    <!--  -->
+    <br />
+    <fieldset>
+      <legend>iFraame</legend>
+      <iframe
+        src="https://en.wikipedia.org/wiki/Mere_Dad_Ki_Maruti"
+        width="500"
+        height="312.5"
+        frameborder="150"
+        sandbox="allow-forms"
+      ></iframe>
+    </fieldset>
   </body>
 </html>
