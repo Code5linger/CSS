@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.box-main {
+  background-color: green;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+  background-color: purple;
+  height: 20%;
+  width: 20%;
+}
+
+.box2 {
+  background-color: cyan;
+}
+
+.box3 {
+  background-color: black;
+}
+
+.box1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* transform: translate(-50%, -50%); */
+}
