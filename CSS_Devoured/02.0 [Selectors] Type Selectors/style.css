@@ -1,0 +1,8 @@
+button {
+  padding: 2rem 3rem;
+}
+
+[disabled] {
+  color: crimson;
+  background-color: yellow;
+}
