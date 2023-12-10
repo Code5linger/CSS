@@ -1,0 +1,62 @@
+html {
+  background-color: black;
+  color: wheat;
+}
+
+/* li {
+  color: crimson;
+} */
+
+/* ul li {
+  color: crimson;
+} */
+
+/* ol li {
+  color: aquamarine;
+} */
+/* 
+ul > li {
+  color: blueviolet;
+} */
+
+/* li.test + li {
+  color: yellow;
+} */
+
+/* li.test ~ li {
+  color: yellow;
+  font-weight: 3rem;
+} */
+/* 
+ol li {
+  color: green;
+}
+
+ol > li {
+  color: purple;
+}
+
+li {
+  color: yellow;
+}
+
+li.test {
+  color: red;
+}
+
+li.test + li {
+  color: orangered;
+}
+
+li.test ~ li {
+  color: blue;
+} */
+
+img {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin: auto;
+
+  border: 5px solid white;
+}
