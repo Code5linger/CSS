@@ -1,0 +1,14 @@
+html {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+
+input[type="checkbox"]:checked + label {
+  color: crimson;
+  outline: 2px solid red;
+}
+
+input[type="checkbox"]:disabled + label {
+  outline: 2px solid red;
+}
