@@ -1,0 +1,40 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  /* display: inline-block; */
+  width: 20%;
+  padding: 1rem;
+  background-color: gray;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+li:first-child {
+  background-color: crimson;
+}
+
+li:last-child {
+  background-color: yellow;
+  color: black;
+}
+
+li:nth-child(3),
+li:nth-child(4) {
+  background-color: white;
+  color: black;
+}
+
+:only-child {
+  /* background-color: hotpink; */
+}
+
+a[href^="www."] {
+  background-color: crimson;
+}
