@@ -6,17 +6,19 @@ body {
 }
 
 .wrap {
-  background-color: #f0fcff;
+  background-color: white;
   margin: 0 auto;
   padding: 110px 0;
   width: 85%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
 }
 
 .box {
   /* background-color: crimson; */
   margin: auto;
   width: 150px;
+  background: url(./Gcds-Chinese-New-Year-Dragon.ico) no-repeat 0 0;
+  /* opacity: 0.5; */
   background-size: 150px;
 }
 
@@ -24,4 +26,22 @@ body {
   display: block;
   /* background-color: aqua; */
   width: 100%;
+  transition: 0.7s ease-in-out;
+  /* -webkit-transform: rotate(-45deg); */
+  /* -webkit-transform: rotate(100grad); */
+  /* -webkit-transform: rotate(6.28rad); */
+}
+
+.wrap:hover .dragon {
+  /* -webkit-transform: rotate(2turn); */
+  /* -webkit-transform-origin: 100% 100%; */
+  /* -webkit-transform-origin: top; */
+  /* -webkit-transform: scale(1.5); */
+  /* -webkit-transform: skewX(45deg); */
+  /* -webkit-transform: translate(-100%, -100%); */
+  -webkit-transform: scale(1.5) rotate(360deg) translate(50%, -25%);
+  -moz-transform: scale(1.5) rotate(360deg) translate(50%, -25%);
+  -ms-transform: scale(1.5) rotate(360deg) translate(50%, -25%);
+  -o-transform: scale(1.5) rotate(360deg) translate(50%, -25%);
+  transform: scale(1.5) rotate(360deg) translate(50%, -25%);
 }
