@@ -1,0 +1,27 @@
+body {
+  /* background-color: black; */
+  padding-top: 70px;
+  background: black;
+  margin: 0 auto;
+}
+
+.wrap {
+  background-color: #f0fcff;
+  margin: 0 auto;
+  padding: 110px 0;
+  width: 85%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.box {
+  /* background-color: crimson; */
+  margin: auto;
+  width: 150px;
+  background-size: 150px;
+}
+
+.dragon {
+  display: block;
+  /* background-color: aqua; */
+  width: 100%;
+}
