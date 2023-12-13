@@ -28,13 +28,43 @@
 - Body: 18px                            1.125
 */
 
-/* My Code */
+/* Kevins Code */
 
 body {
-  text-align: center;
-  /* justify-content: start; */
+  margin: 0; /* Added */
+  font-family: "PT Serif", serif; /* Added */
   font-size: 1.125rem;
+  line-height: 1.6; /* Added */
   color: #414141;
+}
+
+header {
+  max-width: 75rem; /* Added */
+  text-align: center; /* Added */
+  padding: 0 2rem; /* Added */
+  margin: 6rem auto; /* Added */
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 0.9; /* Added */
+  margin: 0; /* Added */
+}
+
+.subtitle {
+  font-size: 2.25rem;
+  line-height: 1.2; /* Added */
+  color: #7d7d7d;
+}
+
+.lead {
+  font-size: 1.3125rem;
+}
+
+a {
+  color: #ca5e10;
 }
 
 /* Default */
@@ -42,27 +72,4 @@ body {
   width: 90%;
   max-width: 39rem;
   margin: 0 auto;
-}
-
-h1 {
-  font-family: Cinzel;
-  font-size: 6rem;
-  font-weight: 900;
-}
-
-p {
-  font-family: PT Serif;
-  font-weight: 400;
-}
-
-.subtitle {
-  font-size: 2.25rem;
-  color: #7d7d7d;
-}
-
-.lead {
-  font-size: 1.3125rem;
-}
-a {
-  color: #ca5e10;
 }
