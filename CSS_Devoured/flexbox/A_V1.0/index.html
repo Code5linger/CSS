@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS -->
+    <style>
+      .col {
+        background-color: crimson;
+        display: flex;
+        color: white;
+      }
+      .col div {
+        padding: 1rem;
+        flex: 1;
+        border: 1px solid black;
+      }
+      .col div:nth-child(2) {
+        flex: 3;
+        text-align: center;
+      }
+      .A {
+        background: cadetblue;
+      }
+      .B {
+        background: purple;
+        /* flex: 3; */
+        /* text-align: center; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="col">
+      <div class="A">Colum A</div>
+      <div class="B">Colum B</div>
+      <div class="C">Colum C</div>
+    </div>
+  </body>
+</html>
