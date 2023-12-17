@@ -33,6 +33,14 @@ a {
   color: white;
   text-decoration: none;
 }
+button {
+  padding: 2rem 6rem;
+  background: #4c6e97;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
 
 /* Nav Section With HERO */
 .main-head {
@@ -55,6 +63,26 @@ nav ul {
   align-items: center;
   list-style: none;
 }
+
 #logo {
   flex: 2 1 40rem;
+}
+/*  */
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(./Assets/img/landing-page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h3 {
+  padding: 5rem;
 }
