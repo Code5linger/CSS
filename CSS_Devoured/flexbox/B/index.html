@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS -->
+    <style>
+      html,
+      body {
+        margin: 0 auto;
+        background: black;
+      }
+
+      .nav,
+      .main {
+        display: flex;
+      }
+      .nav {
+        font-size: 2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* justify-content: center; */
+        padding: 1rem;
+        background: cadetblue;
+        /*  */
+        column-count: 5;
+      }
+      .nav div {
+        background: crimson;
+      }
+      .nav div.A {
+        background-color: chartreuse;
+      }
+      .nav div.B {
+        background-color: purple;
+      }
+      /* .nav div:last-child {
+        background-color: aqua;
+        margin-left: auto;
+      } */
+      /* .nav div:first-child {
+        background-color: aqua;
+        margin-right: auto;
+      } */
+      .main {
+        background-color: rgb(66, 64, 61);
+        /* margin: 1rem; */
+        padding: 1rem 0;
+        flex: 1;
+      }
+      .main div {
+        flex-grow: 1;
+        margin: 1rem;
+        padding: 0.1rem 1rem;
+        background-color: white;
+        border-radius: 1rem;
+      }
+      .main div.col-D {
+        background-color: crimson;
+        color: white;
+        /* flex-grow: 1.5; */
+        order: -1;
+      }
+      .main div.col-D {
+        /* align-self: center; */
+        /* align-self: flex-end; */
+        align-self: stretch;
+      }
+
+      @media screen and (max-width: 900px) {
+        .main {
+          flex-direction: column;
+        }
+      }
+      /* .main div:first-child {
+        margin-top: 0;
+      } */
+      .text {
+        color: white;
+        /* column-count: 3; */
+        column-gap: 5rem;
+        column-rule: 2px solid white;
+        /* column-width: 350px; */
+        columns: 350px 3;
+      }
+      .text img {
+        display: block;
+        margin: 1.5em auto;
+        max-width: 80%;
+      }
+
+      .text h1 {
+        column-span: all;
+        /* display: inline; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="A">🐔</div>
+      <div class="B">🐟</div>
+      <div class="C">🦁</div>
+      <div class="D">😾</div>
+      <div class="A">🐔</div>
+      <div class="B">🐟</div>
+      <div class="C">🦁</div>
+      <div class="D">😾</div>
+      <div class="A">🐔</div>
+      <div class="B">🐟</div>
+      <div class="C">🦁</div>
+      <div class="D">😾</div>
+      <div class="A">🐔</div>
+      <div class="B">🐟</div>
+      <div class="C">🦁</div>
+      <div class="D">😾</div>
+      <div class="A">🐔</div>
+      <div class="B">🐟</div>
+      <div class="C">🦁</div>
+      <div class="D">😾</div>
+      <div class="A">🐔</div>
+      <div class="B">🐟</div>
+      <div class="C">🦁</div>
+      <div class="D">😾</div>
+      <div class="C">🦁</div>
+      <div class="D">😾</div>
+      <div class="D">😾</div>
+    </div>
+    <div class="main">
+      <div class="col-A">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ducimus
+          ipsum et eveniet illum, perferendis natus sapiente obcaecati quasi
+          voluptates voluptate doloribus! Rerum in veniam impedit sed possimus
+          neque quo. Harum ea qui, nulla iure rerum corporis dicta maiores
+          debitis deserunt? Perspiciatis cupiditate nobis voluptatum ipsa
+          incidunt nostrum ducimus sapiente.
+        </p>
+      </div>
+      <div class="col-B">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ducimus
+          ipsum et eveniet illum, perferendis natus sapiente obcaecati quasi
+          voluptates voluptate doloribus! Rerum in veniam impedit sed possimus
+          neque quo. Harum ea qui, nulla iure rerum corporis dicta maiores
+          debitis deserunt? Perspiciatis cupiditate nobis voluptatum ipsa
+          incidunt nostrum ducimus sapiente.
+        </p>
+      </div>
+      <div class="col-C">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ducimus
+          ipsum et eveniet illum, perferendis natus sapiente obcaecati quasi
+          voluptates voluptate doloribus! Rerum in veniam impedit sed possimus
+          neque quo. Harum ea qui, nulla iure rerum corporis dicta maiores
+          debitis deserunt? Perspiciatis cupiditate nobis voluptatum ipsa
+          incidunt nostrum ducimus sapiente.
+        </p>
+      </div>
+      <div class="col-D">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ducimus
+          ipsum et eveniet illum, perferendis natus sapiente obcaecati quasi
+          voluptates voluptate doloribus! Rerum in veniam impedit sed possimus
+          neque quo. Harum ea qui, nulla iure rerum corporis dicta maiores
+          debitis deserunt? Perspiciatis cupiditate nobis voluptatum ipsa
+          incidunt nostrum ducimus sapiente. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Sed, ducimus ipsum et eveniet illum,
+          perferendis natus sapiente obcaecati quasi voluptates voluptate
+          doloribus! Rerum in veniam impedit sed possimus neque quo. Harum ea
+          qui, nulla iure rerum corporis dicta maiores debitis deserunt?
+          Perspiciatis cupiditate nobis voluptatum ipsa incidunt nostrum ducimus
+          sapiente.
+        </p>
+      </div>
+      <div class="col-E">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ducimus
+          ipsum et eveniet illum, perferendis natus sapiente obcaecati quasi
+          voluptates voluptate doloribus! Rerum in veniam impedit sed possimus
+          neque quo. Harum ea qui, nulla iure rerum corporis dicta maiores
+          debitis deserunt? Perspiciatis cupiditate nobis voluptatum ipsa
+          incidunt nostrum ducimus sapiente.
+        </p>
+      </div>
+    </div>
+    <div class="text">
+      <h1>Lorem ipsum dolor sit amet. dolor sit amet.</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, sint
+        optio sequi eveniet quis laboriosam, distinctio fuga, sed iste commodi
+        nemo esse quidem corrupti delectus! Repudiandae consequuntur illo quia,
+        nam corporis praesentium id ad accusantium tenetur culpa accusamus.
+        Voluptatibus dicta, velit est, nesciunt veritatis, corporis
+        necessitatibus ex similique quia corrupti sapiente veniam. Animi
+        consectetur, dolor reiciendis totam voluptatem, officiis facilis quia
+        expedita dicta fugit delectus alias rem id assumenda? Nemo cupiditate
+        totam animi aut at odio, ut ipsam eligendi harum accusamus voluptatem
+        excepturi libero beatae cum molestias unde, dolore quo! Accusamus beatae
+        incidunt eum quaerat saepe inventore quos suscipit sunt.
+      </p>
+      <p>
+        <img src="./udemy.png" alt="" />
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+        perspiciatis non, magni excepturi exercitationem reiciendis porro
+        molestiae tempore, ratione modi optio odio inventore molestias
+        asperiores ipsa distinctio qui omnis. Tenetur veritatis dolorem rem,
+        repudiandae animi optio. Magni esse nisi cupiditate. Eaque quis
+        accusamus ratione eos illum deserunt repellendus dicta voluptas eius
+        dignissimos natus iure, esse nam est non vitae possimus illo.
+        Perspiciatis vero voluptatum nemo quaerat, recusandae aperiam minima!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+        impedit a officia, optio cum temporibus obcaecati enim asperiores nihil
+        pariatur officiis perspiciatis. Delectus sapiente debitis quaerat eos
+        doloremque saepe, consequuntur deserunt, rerum temporibus consequatur
+        fugiat autem odio minus, amet hic obcaecati! Modi mollitia enim, ullam
+        temporibus, explicabo pariatur placeat tenetur iste corrupti laborum
+        voluptas commodi saepe a veritatis quis expedita cupiditate architecto
+        minus non libero laboriosam. Aut delectus odio harum illum veritatis,
+        dolores similique modi sequi ratione quibusdam fuga quasi temporibus,
+        debitis laborum. Praesentium inventore, labore quisquam dolores expedita
+        optio delectus esse? Deserunt placeat porro perspiciatis nostrum, ullam
+        exercitationem. Expedita?
+      </p>
+    </div>
+  </body>
+</html>
