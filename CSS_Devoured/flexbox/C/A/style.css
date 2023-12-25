@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+  color: white;
+
+  padding-top: 30vh;
+}
+
+ol {
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+
+  flex-flow: row wrap;
+  justify-content: center;
+
+  /* height: 40rem; */
+
+  align-items: flex-start;
+
+  list-style: none;
+  border: 5px dotted crimson;
+  padding: 0;
+
+  margin: 0;
+}
+
+li {
+  border: 5px solid gainsboro;
+  padding: 0.5em;
+  margin: 0.5em;
+
+  /* align-items: flex-start; */
+  /* flex-grow: 1; */
+}
+
+li:last-child {
+  background-color: aqua;
+  color: black;
+
+  /* flex-grow: 1; */
+  /* width: 100%; */
+  /* flex-basis: 100%; */
+}
+
+.flux-test {
+  border: 5px dashed rgb(146, 59, 240);
+  order: 10;
+}
+
+.flux-test-2 {
+  border: 5px dashed rgb(255, 20, 20);
+  order: 2;
+}
