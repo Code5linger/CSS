@@ -2,10 +2,85 @@ body,
 body::before,
 body::after {
   box-sizing: border-box;
+  box-sizing: inherit;
 
+  font-family: Arial, Helvetica, sans-serif;
   background: black;
   color: white;
 
   margin: 0;
   padding: 0;
+  /* max-width: 60rem; */
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  flex-flow: column wrap;
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+
+  background: chocolate;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 15px dashed crimson;
+  height: 100%;
+}
+
+ul li {
+  flex-grow: 1;
+  padding: 2rem;
+  /* margin: 1rem auto; */
+  outline: 5px solid black;
+  /* border: 5px solid black; */
+  /* min-height: 100px;
+  min-width: 100px; */
+}
+
+ul > * + * {
+  background: crimson;
+  color: black;
+  margin-top: 5rem;
+}
+
+.flex2 * + * {
+  /* margin-top: 5rem; */
+}
+
+.img {
+  /* display: block;
+  height: auto;
+  background: crimson;
+  width: 120%; */
+}
+
+.img--- {
+  display: block;
+  height: auto;
+  background: crimson;
+  width: 100%;
+}
+
+.test-drive {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 2rem;
+}
+
+.test-drive * {
+  padding: 1rem;
+  outline: 5px solid white;
+}
+
+.test-drive * + * {
+  background: crimson;
+  color: black;
 }

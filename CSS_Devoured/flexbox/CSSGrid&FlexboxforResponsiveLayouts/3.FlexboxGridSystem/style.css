@@ -1,0 +1,52 @@
+body,
+body::before,
+body::after {
+  background: black;
+  color: white;
+
+  box-sizing: border-box;
+
+  margin: 0 auto;
+}
+
+/* .row {
+  display: flex;
+  background: darkblue;
+}
+
+.row * {
+  color: black;
+  background: yellow;
+  padding: 2rem 3rem;
+  margin: 2rem;
+  border-radius: 1em;
+  outline: 2px solid white;
+} */
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1%;
+}
+
+.col-1 {
+  flex-basis: 24%;
+  /* Desktop ? */
+
+  flex-basis: 48%;
+  /* tablet */
+
+  flex-basis: 98%;
+  /* phone */
+}
+
+/* Rearranging the colums */
+.col-1 {
+  order: 2;
+  background: crimson;
+}
+.col-3 {
+  order: 1;
+  background: cadetblue;
+}
