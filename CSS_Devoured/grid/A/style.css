@@ -2,4 +2,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.boxes {
+  border: 1rem solid crimson;
+}
+
+.box {
+  padding: 5rem;
+  background: gray;
+}
+
+.box1 {
+  background: azure;
+}
+
+.box2 {
+  background: blueviolet;
+}
+
+.box3 {
+  background: cadetblue;
+}
+
+.box4 {
+  background: darkmagenta;
+}
+
+.box5 {
+  background-color: fuchsia;
+}
+
+.boxes {
+  /* display: flex;
+  flex-direction: column; */
+
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+
+  /* grid-template-columns: repeat(5, 1fr); */
+
+  /* grid-template-columns: 20% repeat(4, 1fr); */
+
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
 }
