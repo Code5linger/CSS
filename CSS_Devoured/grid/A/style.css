@@ -2,49 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 .boxes {
-  border: 1rem solid crimson;
+  border: 0.5rem solid black;
 }
 
 .box {
-  padding: 5rem;
-  background: gray;
+  padding: 2rem;
+  background: #711db0;
 }
 
 .box1 {
-  background: azure;
+  background: #c21292;
 }
 
 .box2 {
-  background: blueviolet;
+  background: #ef4040;
 }
 
 .box3 {
-  background: cadetblue;
+  background: #ffa732;
 }
 
 .box4 {
-  background: darkmagenta;
+  background: #b31312;
 }
 
 .box5 {
-  background-color: fuchsia;
-}
-
-.boxes {
-  /* display: flex;
-  flex-direction: column; */
-
-  display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-
-  /* grid-template-columns: repeat(5, 1fr); */
-
-  /* grid-template-columns: 20% repeat(4, 1fr); */
-
-  grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(4, 1fr); */
+  background-color: #65b741;
 }
