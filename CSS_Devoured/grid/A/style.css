@@ -8,11 +8,20 @@
 
 .boxes {
   border: 0.5rem solid black;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column; */
+
+  display: grid;
+  /* grid-template-columns: 10rem 1fr 1fr 10rem; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
 }
 
 .box {
   padding: 2rem;
-  background: #711db0;
+  background: #65b741;
 }
 
 .box1 {
@@ -32,5 +41,5 @@
 }
 
 .box5 {
-  background-color: #65b741;
+  background-color: #711db0;
 }
