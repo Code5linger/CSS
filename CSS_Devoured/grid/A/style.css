@@ -8,6 +8,7 @@
 
 .boxes {
   border: 0.5rem solid black;
+  color: white;
   text-align: center;
   /* display: flex;
   flex-direction: column; */
@@ -16,7 +17,17 @@
   /* grid-template-columns: 10rem 1fr 1fr 10rem; */
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  /* grid-template-rows: repeat(3, auto); */
+  grid-template-areas:
+    "box2 box2 box5 "
+    "box1 box4 box5 "
+    "box1 box3 box3 ";
+}
+
+.grid-text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .box {
@@ -26,20 +37,25 @@
 
 .box1 {
   background: #c21292;
+  grid-area: box1;
 }
 
 .box2 {
   background: #ef4040;
+  grid-area: box2;
 }
 
 .box3 {
   background: #ffa732;
+  grid-area: box3;
 }
 
 .box4 {
   background: #b31312;
+  grid-area: box4;
 }
 
 .box5 {
   background-color: #711db0;
+  grid-area: box5;
 }
