@@ -1,0 +1,19 @@
+body {
+  background: black;
+  color: white;
+  margin: 0;
+}
+
+.content {
+  background: white;
+  color: black;
+}
+
+.b {
+  padding: 50px;
+}
+
+.c {
+  padding: 50px;
+  border: 50px solid red;
+}
