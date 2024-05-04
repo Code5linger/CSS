@@ -1,19 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   background: black;
+  width: 700px;
   color: white;
+  border: 10px solid greenyellow;
   margin: 0;
 }
 
 .content {
+  width: 50%;
+
   background: white;
   color: black;
-}
-
-.b {
-  padding: 50px;
 }
 
 .c {
   padding: 50px;
   border: 50px solid red;
+  margin: 5rem 0 0 0;
 }
