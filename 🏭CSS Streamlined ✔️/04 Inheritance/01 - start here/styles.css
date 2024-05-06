@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  text-align: center;
+  color: #5b5b5b;
+}
+
+.container {
+  width: 90%;
+  max-width: 39rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+header h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 96px;
+  color: #414141;
+  line-height: 0.8;
+  margin: 20rem 0 0 0;
+}
+
+.subtitle {
+  font-size: 36px;
+  color: #7d7d7d;
+  margin: 3rem auto;
+}
+
+.lead {
+  font-size: 21px;
+}
+
+a {
+  text-decoration: none;
+  color: #ca5e10;
+}
