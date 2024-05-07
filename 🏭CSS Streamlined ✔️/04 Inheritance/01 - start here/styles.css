@@ -1,8 +1,8 @@
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
-} */
+}
 
 html {
   /* font-size: 1.5rem; */
@@ -84,6 +84,29 @@ a {
   color: #ca5e10;
 }
 
-.blue {
-  color: blue;
+.red {
+  text-align: center;
+  padding: 1rem;
+  color: red !important;
+  background: blue;
 }
+
+.blue {
+  text-align: center;
+  padding: 1rem;
+  color: blue;
+  background: red;
+}
+
+p {
+  /* color: red; */
+}
+
+/* 21-introduction-to-the-cascade-- */
+/*  */
+/* 23-importance-and-origin-- */
+/* 25-when-animations-and-transitions-get-involved-- */
+/* 27-specificity-- */
+/* 28-fixing-specificity-issues-- */
+/* 27-specificity-- */
+/* 29-calculating-specificity-- */
