@@ -23,6 +23,7 @@ h1 {
 .plans {
   display: flex;
   justify-content: center;
+  margin: 2rem 0;
 }
 
 .plan {
@@ -37,9 +38,23 @@ h1 {
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
 }
 
+.plan--light .button {
+  color: white;
+  background: #4e4e4e;
+}
+
+.plan--light .plan__price {
+  color: #00a1ab;
+}
+
 .plan--accent {
   color: #fff;
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
+}
+
+.plan--accent .button {
+  color: #4e4e4e;
+  background: #fff;
 }
 
 .plan__title {
@@ -71,14 +86,6 @@ h1 {
   border-radius: 0.25em;
   text-transform: uppercase;
   font-weight: 700;
-}
-
-.button--light {
-  background: white;
-  color: #4e4e4e;
-}
-
-.button--dark {
-  color: white;
-  background: #4e4e4e;
+  background: #00a1ab;
+  color: #fff;
 }
