@@ -34,14 +34,31 @@ body {
   padding: 2rem;
   border-radius: 0.8rem;
   margin: 0.7rem;
+}
 
+.plan--light {
   background: linear-gradient(to left, #e5e3e8, #fafafa);
   box-shadow: 0 4px 2px #797979;
 }
 
+.plan--light .plan-price {
+  color: #00a1ab;
+}
+
+.plan--light .button {
+  background: #4e4e4e;
+  color: #ffffff;
+}
+
 .plan--accent {
   background: linear-gradient(#3741a0, #00a1ab);
+  box-shadow: 0 4px 2px #797979;
   color: white;
+}
+
+.button--accent {
+  background: #00a1ab;
+  color: #ffffff;
 }
 
 .plan--accent .button {
@@ -69,18 +86,9 @@ body {
   font-size: 1rem;
   font-weight: bolder;
   letter-spacing: 1px;
-
   padding: 0.5rem;
   border-radius: 0.5rem;
   border: none;
-}
-
-.button--dark {
-  background: #4e4e4e;
-  color: #ffffff;
-}
-
-.button--accent {
   background: #00a1ab;
   color: #ffffff;
 }
@@ -95,8 +103,31 @@ body {
   text-transform: uppercase;
 }
 
+.team {
+  background: yellowgreen;
+  text-align: center;
+}
+
+.team-member {
+  background: yellow;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex: 1 1 45%;
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.team-members {
+  background: #00a1ab;
+  display: flex; 
+  flex-wrap: wrap;
+}
+
 /* Issues */
 /* Issue #1 -       <p class="fs-500">plans that work for everyone</p> is thicker  */
 /* Issue #2 -       <p class="plan-price"> is thinner  */
 
 /* 31B-a-safe-approach-to-css-- */
+/* 33-my-solution-- */
