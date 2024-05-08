@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto';
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.fs-500 {
+  font-size: 1.313rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.pricing {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.plan {
+  max-width: 18rem;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  margin: 0.7rem;
+
+  background: linear-gradient(to left, #e5e3e8, #fafafa);
+  box-shadow: 0 4px 2px #797979;
+}
+
+.plan--accent {
+  background: linear-gradient(#3741a0, #00a1ab);
+  color: white;
+}
+
+.plan--accent .button {
+  background: #ffffff;
+  color: #4e4e4e;
+}
+
+.plan-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.plan-price span {
+  font-size: 1.5rem;
+  line-height: 0.8;
+  display: block;
+}
+
+.plan-description {
+  margin: 2rem 1rem;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.button--dark {
+  background: #4e4e4e;
+  color: #ffffff;
+}
+
+.button--accent {
+  background: #00a1ab;
+  color: #ffffff;
+}
+
+.text-accent {
+  color: #00a1ab;
+}
+
+.plan-title,
+.button,
+.section-title {
+  text-transform: uppercase;
+}
+
+/* Issues */
+/* Issue #1 -       <p class="fs-500">plans that work for everyone</p> is thicker  */
+/* Issue #2 -       <p class="plan-price"> is thinner  */
+
+/* 31B-a-safe-approach-to-css-- */
