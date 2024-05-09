@@ -1,6 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  margin: 0;
+}
+
+section {
+  padding: 6rem 0;
 }
 
 h1 {
@@ -20,6 +31,41 @@ h1 {
   margin: 0;
 }
 
+.container {
+  padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.bg-light {
+  color: #4e4e4e;
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+}
+
+.bg-light .plan-price {
+  color: #00a1ab;
+}
+
+.bg-light .button {
+  color: white;
+  background: #4e4e4e;
+}
+
+.bg-accent {
+  color: #fff;
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+}
+
+.bg-accent .button {
+  background: white;
+  color: #4e4e4e;
+}
+
+.bg-dark {
+  color: #fff;
+  background: #4e4e4e;
+}
+
 .plans {
   display: flex;
   justify-content: center;
@@ -27,34 +73,10 @@ h1 {
 }
 
 .plan {
-  width: 200px;
+  width: 16.5rem;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
-}
-
-.plan--light {
-  color: #4e4e4e;
-  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
-}
-
-.plan--light .plan-price {
-  color: #00a1ab;
-}
-
-.plan--light .button {
-  color: white;
-  background: #4e4e4e;
-}
-
-.plan--accent {
-  color: #fff;
-  background: linear-gradient(-45deg, #00a1ab, #3741a0);
-}
-
-.plan--accent .button {
-  background: white;
-  color: #4e4e4e;
 }
 
 .plan-title {
@@ -85,6 +107,7 @@ h1 {
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 0.25em;
+  border: none;
   text-transform: uppercase;
   font-weight: 700;
   background: #00a1ab;
@@ -96,7 +119,19 @@ h1 {
   color: #4e4e4e;
 }
 
-.button--dark {
-  color: white;
-  background: #4e4e4e;
+.team {
+  background: #707070;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  display: flex;
+  text-align: left;
+  flex: 1 1 45%;
+  margin: 1rem;
+  border-radius: 0.5em;
 }

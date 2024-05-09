@@ -1,3 +1,20 @@
+:root {
+  --color-primary-400: #00a1ab;
+  --color-primary-500: #3741a0;
+
+  --color-accent-400: #00cdac;
+  --color-accent-500: #114243;
+
+  --color-neutral-100: #ffffff;
+  --color-neutral-200: #fafafa;
+  --color-neutral-300: #e5e3e8;
+  --color-neutral-400: #4e4e4e;
+}
+
+/* //////////////////////////
+
+  //////////////////////////  */
+
 *,
 *::before,
 *::after {
@@ -37,47 +54,68 @@ section {
   max-width: 18rem;
   padding: 2rem;
   border-radius: 0.8rem;
+  box-shadow: 0 2px 2px var(--color-neutral-400);
 }
 
-.plan--light {
-  background: linear-gradient(to left, #e5e3e8, #fafafa);
-  box-shadow: 0 4px 2px #797979;
+.bg-light {
+  --bg: var(--color-neutral-400);
+  --fg: var(--color-neutral-100);
+  --pop: var(--color-primary-400);
+
+  background: linear-gradient(
+    to left,
+    var(--color-neutral-300),
+    var(--color-neutral-200)
+  );
+
   border-radius: 0.8rem 0 0 0.8rem;
   margin: 3rem 0;
 }
 
-.plan--light .plan-price {
-  color: #00a1ab;
-}
+/* .bg-light .plan-price {
+  --txt: var(var(--color-accent-400));
 
-.plan--light .button {
-  background: #4e4e4e;
-  color: #ffffff;
-}
+  color: var(--txt, var(--color-primary-400));
+} */
 
-.plan--accent {
-  background: linear-gradient(#3741a0, #00a1ab);
-  box-shadow: 0 4px 2px #797979;
-  color: white;
+/* .bg-light .button {
+  background: var(--color-neutral-400);
+  color: var(--color-neutral-100);
+} */
+
+.bg-accent {
+  --bg: var(--color-neutral-100);
+  --fg: var(--color-neutral-400);
+  --pop: var(--color-neutral-100);
+
+  background: linear-gradient(
+    var(--color-primary-500),
+    var(--color-primary-400)
+  );
+  color: var(--color-neutral-100);
   padding: 5rem 2rem;
 }
 
-.button--accent {
+/* .button--accent {
   background: #00a1ab;
   color: #ffffff;
-}
+} */
 
-.plan--accent .button {
+/* .bg-accent .button {
   background: #ffffff;
   color: #4e4e4e;
-}
+} */
 
 .plan-price {
   font-size: 3rem;
+  font-weight: bolder;
   margin: 0;
+
+  color: var(--pop);
 }
 
 .plan-price span {
+  font-weight: 300;
   font-size: 1.5rem;
   line-height: 0.8;
   display: block;
@@ -95,11 +133,13 @@ section {
   padding: 0.5rem;
   border-radius: 0.5rem;
   border: none;
-  background: #00a1ab;
-  color: #ffffff;
+  background: var(--bg, var(--color-primary-400));
+  color: var(--fg, var(--color-neutral-100));
 }
 
-.plan--dark {
+.bg-dark {
+  --pop: var(--color-neutral-100);
+
   background: #4e4e4e;
   color: #e6e4e9;
   border-radius: 0 0.8rem 0.8rem 0;
@@ -138,11 +178,18 @@ section {
   display: flex;
   align-items: center;
   text-align: left;
-  box-shadow: 0 1px 1px #797979;
+  box-shadow: 0 2px 2px var(--color-neutral-400);
   flex: 1 1 45%;
-
+  line-height: 1.6;
   border-radius: 0.5rem;
   margin: 1rem;
+}
+
+.team-member .name {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: var(--pop);
+  margin: 0;
 }
 
 .team-member .info {
@@ -151,56 +198,47 @@ section {
 
 .team-member img {
   border-radius: 0.5rem;
+  /* margin-right: 0.5em; */
 }
 
-.position {
+.team-member .position {
+  margin-top: 0;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.team-member-mirrored {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.team-member-mirrored img {
+  order: 2;
+  margin-left: 1rem;
+}
+
+/* .position { 
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
   margin: 0.25rem 0;
-}
+} */
 
-.team-member-light {
+/* .team-member-light {
   flex-direction: row-reverse;
   text-align: right;
   background: linear-gradient(to right, #fafafa, #e5e3e8);
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-}
+} */
 
-.team-member-light .name {
-  color: #00a1ab;
-  font-size: 2rem;
-  line-height: 1;
-  margin: 0;
-}
-
-.team-member-light .position {
-  color: #4e4e4ed8;
-}
-
-.team-member-dark {
+/* .team-member-dark {
   background: #4e4e4e;
   color: #ffffffb9;
   padding: 0.5rem 3rem 0.5rem 0.5rem;
-}
+} */
 
-.team-member-dark .name {
+/* .team-member-dark .name {
   color: #ffffff;
   font-size: 2rem;
   line-height: 1;
   margin: 0;
-}
-
-.team-member-dark .position {
-  color: #ffffffce;
-}
-
-/* Issues */
-/* Issue #1 -       <p class="fs-500">plans that work for everyone</p> is thicker  */
-/* Issue #2 -       <p class="plan-price"> is thinner  */
-
-/* 31B-a-safe-approach-to-css-- */
-/* 33-my-solution-- */
-/* 34-updated-design-- */
-/* 34-updated-design-- */
-/* 35-updated-design-- */
+} */
