@@ -33,12 +33,14 @@ body {
   max-width: 18rem;
   padding: 2rem;
   border-radius: 0.8rem;
-  margin: 0.7rem;
+  /* margin: 0.7rem; */
 }
 
 .plan--light {
   background: linear-gradient(to left, #e5e3e8, #fafafa);
   box-shadow: 0 4px 2px #797979;
+  border-radius: 0.8rem 0 0 0.8rem;
+  margin: 3rem 0;
 }
 
 .plan--light .plan-price {
@@ -54,6 +56,7 @@ body {
   background: linear-gradient(#3741a0, #00a1ab);
   box-shadow: 0 4px 2px #797979;
   color: white;
+  padding: 5rem 2rem;
 }
 
 .button--accent {
@@ -93,6 +96,13 @@ body {
   color: #ffffff;
 }
 
+.plan--dark {
+  background: #4e4e4e;
+  color: #e6e4e9;
+  border-radius: 0 0.8rem 0.8rem 0;
+  margin: 3rem 0;
+}
+
 .text-accent {
   color: #00a1ab;
 }
@@ -104,25 +114,84 @@ body {
 }
 
 .team {
-  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  /* background: yellowgreen; */
   text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 5rem 0;
+  max-width: 75rem;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 3rem 0;
 }
 
 .team-member {
-  background: yellow;
   display: flex;
   align-items: center;
   text-align: left;
+  box-shadow: 0 1px 1px #797979;
   flex: 1 1 45%;
-  padding: 0.5rem 3rem 0.5rem 0.5rem;
+
   border-radius: 0.5rem;
   margin: 1rem;
 }
 
-.team-members {
-  background: #00a1ab;
-  display: flex; 
-  flex-wrap: wrap;
+.team-member .info {
+  margin: 0 1rem;
+}
+
+.team-member img {
+  border-radius: 0.5rem;
+}
+
+.position {
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0.25rem 0;
+}
+
+.team-member-light {
+  flex-direction: row-reverse;
+  text-align: right;
+  background: linear-gradient(to right, #fafafa, #e5e3e8);
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.team-member-light .name {
+  color: #00a1ab;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.team-member-light .position {
+  color: #4e4e4ed8;
+}
+
+.team-member-dark {
+  background: #4e4e4e;
+  color: #ffffffb9;
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
+}
+
+.team-member-dark .name {
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.team-member-dark .position {
+  color: #ffffffce;
 }
 
 /* Issues */
