@@ -6,6 +6,11 @@
 
 body {
   font-family: 'roboto';
+  margin: 0 auto;
+}
+
+section {
+  padding: 5rem 0;
 }
 
 .section-title {
@@ -20,7 +25,6 @@ body {
 
 .pricing {
   text-align: center;
-  padding: 5rem 0;
 }
 
 .plans {
@@ -33,7 +37,6 @@ body {
   max-width: 18rem;
   padding: 2rem;
   border-radius: 0.8rem;
-  /* margin: 0.7rem; */
 }
 
 .plan--light {
@@ -116,13 +119,11 @@ body {
 .team {
   display: flex;
   justify-content: center;
-  /* background: yellowgreen; */
   text-align: center;
   margin: 0 auto;
 }
 
 .container {
-  margin: 5rem 0;
   max-width: 75rem;
 }
 
@@ -200,3 +201,6 @@ body {
 
 /* 31B-a-safe-approach-to-css-- */
 /* 33-my-solution-- */
+/* 34-updated-design-- */
+/* 34-updated-design-- */
+/* 35-updated-design-- */
