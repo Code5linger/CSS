@@ -1,0 +1,63 @@
+:root {
+  --font-color-title: #414141;
+  --font-color-subtitle: #7d7d7d;
+  --font-color-nutral: #5b5b5b;
+  --font-color-link: #ca5e10;
+
+  --font-size-title: 6rem;
+  --font-size-subtitle: 2.25rem;
+  --font-size-lead: 1.313rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  color: var(--font-color-nutral);
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+section {
+  padding: 7rem 0;
+  max-width: 65rem;
+}
+
+.main-title {
+  font-family: 'Cinzel', serif;
+  font-size: var(--font-size-title);
+  font-weight: 900;
+  line-height: 0.8;
+  color: var(--font-color-title);
+}
+
+.sub-title {
+  padding: 3rem 5rem;
+  font-size: var(--font-size-subtitle);
+  font-weight: 200;
+  color: var(--font-color-subtitle);
+}
+
+.paragraph {
+  text-align: left;
+  max-width: 40rem;
+  padding: 2rem 0;
+}
+
+.lead {
+  font-size: var(--font-size-lead);
+}
+
+a {
+  color: var(--font-color-link);
+  text-decoration: none;
+}
+
+/* 19-a-little-project-- */
+/* 19-a-little-project-- */

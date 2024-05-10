@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  text-align: center;
+  max-width: 60rem;
+  margin: 10rem auto;
+  line-height: 1.2;
+}
+
+h1,
+.subhead {
+  margin: 0;
+}
+
+.plans {
+  display: flex;
+  margin: 3rem 0;
+}
+
+.plan {
+  border-radius: 0.5rem;
+  padding: 3rem;
+  margin: 1rem;
+  box-shadow: 2px 2px 7px #4e4e4e;
+}
+
+.plan__price {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+h1,
+.plan .plan__title,
+.plan__button {
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.plan__price span {
+  display: block;
+  font-size: 1.571rem;
+  font-weight: 300;
+}
+
+.bg-light {
+  background: linear-gradient(to right, #fafafa, #e5e3e8);
+  color: #4e4e4e;
+}
+
+.bg-light .plan__price {
+  color: #00a1ab;
+}
+
+.plan__button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  background: #00a1ab;
+  color: #ffffff;
+}
+
+.bg-light .plan__button {
+  background: #4e4e4e;
+  color: #ffffff;
+}
+
+.bg-accent {
+  background: linear-gradient(#3741a0, #00a1ab);
+  color: white;
+}
+
+.bg-accent .plan__button {
+  background: #ffffff;
+  color: #4e4e4e;
+  font-weight: 700;
+}
