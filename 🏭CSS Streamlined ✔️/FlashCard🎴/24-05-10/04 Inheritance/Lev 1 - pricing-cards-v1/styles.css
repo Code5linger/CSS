@@ -8,8 +8,12 @@ body {
   font-family: 'Roboto';
   text-align: center;
   max-width: 60rem;
-  margin: 10rem auto;
+  margin: 3rem auto;
   line-height: 1.2;
+}
+
+section {
+  padding: 3rem 0;
 }
 
 h1,
@@ -35,11 +39,21 @@ h1,
   margin: 0;
 }
 
-h1,
+.section-title,
 .plan .plan__title,
 .plan__button {
   text-transform: uppercase;
-  margin-top: 0;
+}
+
+.section-title {
+  color: #00a1ab;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.fs-500 {
+  font-size: 1.313rem;
+  margin: 0;
 }
 
 .plan__price span {
@@ -47,6 +61,20 @@ h1,
   font-size: 1.571rem;
   font-weight: 300;
 }
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  background: #00a1ab;
+  color: #ffffff;
+}
+
+/* //////////////////////
+    Card - Light
+////////////////////// */
 
 .bg-light {
   background: linear-gradient(to right, #fafafa, #e5e3e8);
@@ -57,28 +85,50 @@ h1,
   color: #00a1ab;
 }
 
-.plan__button {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  margin-top: 1rem;
-  background: #00a1ab;
-  color: #ffffff;
-}
-
-.bg-light .plan__button {
+.bg-light .button {
   background: #4e4e4e;
   color: #ffffff;
 }
+
+/* //////////////////////
+    Card - Accent
+////////////////////// */
 
 .bg-accent {
   background: linear-gradient(#3741a0, #00a1ab);
   color: white;
 }
 
-.bg-accent .plan__button {
+.bg-accent .button {
   background: #ffffff;
   color: #4e4e4e;
   font-weight: 700;
+}
+
+/* //////////////////////
+    Card - Dark
+////////////////////// */
+
+.bg-dark {
+  background: #4e4e4e;
+  color: #fafafa;
+}
+
+/*  ////////////////////////////////////////////////// 
+                        Team
+    /////////////////////////////////////////////// */
+
+.team {
+  background: yellow;
+}
+
+.team-members {
+  background: yellowgreen;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.team-member {
+  flex: 1 1 45%;
 }
