@@ -1,0 +1,100 @@
+:root {
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto';
+  text-align: center;
+  line-height: 1.4;
+  margin: 6rem 0;
+}
+
+h1 {
+  font-size: 2.528rem;
+  color: #00a1ab;
+}
+
+h1,
+.plan .plan__title,
+.button {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h1,
+.fs-500 {
+  margin: 0;
+}
+
+.fs-500 {
+  font-size: 1.313rem;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.plan {
+  background: linear-gradient(#fafafa, #e5e3e8);
+  box-shadow: 1px 1px 3px #000;
+  border-radius: 0.5rem;
+  max-width: 16.5rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+
+.plan__title {
+  font-size: 1.106rem;
+}
+
+.plan .plan__price {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 2rem;
+}
+
+.plan .plan__price span {
+  display: block;
+  font-size: 1.571rem;
+  font-weight: 200;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background: #00a1ab;
+  color: white;
+
+  margin: 0.75rem 0;
+}
+
+.plan--light .plan__price {
+  color: #00a1ab;
+}
+
+.plan--light .button {
+  background: #4e4e4e;
+  color: #ffffff;
+}
+
+.plan--accent {
+  background: linear-gradient(#3741a0, #00a1ab);
+  color: #ffffff;
+}
+
+.plan--accent .button {
+  background: #ffffff;
+  color: #4e4e4e;
+}

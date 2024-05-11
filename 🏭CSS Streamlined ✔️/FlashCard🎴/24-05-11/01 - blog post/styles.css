@@ -1,5 +1,3 @@
-/* [Limitation: CSS- >60 LOC, Time: 10 Minutes] */
-
 :root {
   --font-familly-title: 'Cinzel', serif;
   --font-familly-base: 'PT Serif', serif;
@@ -22,22 +20,30 @@
 }
 
 body {
-  text-align: center;
   color: var(--color-base);
   font-family: var(--font-familly-base);
   font-size: var(--font-size-base);
   line-height: 1.6;
+
+  margin: 0;
+}
+
+a {
+  color: var(--color-link);
 }
 
 header {
-  margin: 40rem;
+  text-align: center;
+  max-width: 75rem;
   margin: 6rem auto;
+  padding: 0 2rem;
 }
 
 h1 {
   font-family: var(--font-familly-title);
   font-size: var(--font-size-title);
   color: var(--color-title);
+  font-weight: 900;
   line-height: 0.8;
   margin: 0;
 }
@@ -45,22 +51,15 @@ h1 {
 .subtitle {
   font-size: var(--font-size-subtitle);
   color: var(--color-subtitle);
-  padding: 0 10rem;
   line-height: 1.2;
 }
 
 .container {
   max-width: 40rem;
-  text-align: left;
-
+  padding: 0 1.5rem;
   margin: 0 auto;
 }
 
 .lead {
   font-size: var(--font-size-lead);
-}
-
-a {
-  text-decoration: underline;
-  color: var(--color-link);
 }
