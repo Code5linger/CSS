@@ -5,7 +5,6 @@
 }
 
 body {
-  background: yellow;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
 }
@@ -47,8 +46,12 @@ a {
 }
 
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  color: #333;
+  background: #f7c08a;
+}
+
+.clr {
+  clear: both;
 }
 
 .btn:hover {
@@ -147,4 +150,23 @@ p {
 
 .home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+.main-footer {
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 20px;
 }
