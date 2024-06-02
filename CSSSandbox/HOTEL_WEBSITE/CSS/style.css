@@ -7,7 +7,10 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -170,4 +173,59 @@ p {
   background: #444;
   color: white;
   padding: 20px;
+}
+
+/* About Info */
+.about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+.about-info .info-right img {
+  width: 70%;
+  margin: auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+.about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+.about-info .container {
+  padding: 3rem;
+}
+
+.headeing-large {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.testimonials {
+  height: 600px;
+  background: url(../img/test-bg.jpg) no-repeat center center/cover;
+}
+
+.testimonials h2 {
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  margin-top: 4.8rem;
+}
+
+.testimonials .testimonial {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  opacity: 0.9;
+}
+
+.testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 1rem;
 }
