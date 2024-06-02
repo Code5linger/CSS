@@ -229,3 +229,40 @@ p {
   margin-right: 1rem;
   border-radius: 1rem;
 }
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+.form-group {
+  margin: 0 2rem;
+}
+
+.contact-form .btn {
+  margin: 1rem 2rem;
+}
+
+.contact-form .headeing-large {
+  padding: 20px 0 0 0;
+}
