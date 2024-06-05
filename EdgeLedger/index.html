@@ -20,11 +20,11 @@
         </h1>
         <nav>
           <ul>
-            <li><a href="#home" target="_blank">Home</a></li>
-            <li><a href="#about" target="_blank">About</a></li>
-            <li><a href="#cases" target="_blank">Cases</a></li>
-            <li><a href="#blog" target="_blank">Blog</a></li>
-            <li><a href="#contact" target="_blank">Contact</a></li>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#cases">Cases</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -37,7 +37,8 @@
       </div>
     </header>
     <main>
-      <section class="about icons bg-light">
+      <!-- About: Icons -->
+      <section id="home" class="about icons bg-light">
         <div class="flex-items">
           <div>
             <i class="fas fa-university fa-2x"></i>
@@ -71,6 +72,171 @@
           </div>
         </div>
       </section>
+      <!-- About: Solutions -->
+      <section id="about" class="solutions flex-columns">
+        <div class="row">
+          <div class="columns">
+            <div class="colums-1">
+              <img src="./image_resources/home/people.jpg" alt="" />
+            </div>
+          </div>
+          <div class="columns colums-2 bg-primary">
+            <div class=" ">
+              <h4>What you are looking for</h4>
+              <h2>We provide bespoke solutions</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+                debitis consequuntur quibusdam amet, obcaecati molestiae
+                expedita animi dolore perferendis corporis ut vel exercitationem
+                dolores harum nam corrupti eos sit earum!
+              </p>
+              <a href="" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Cases -->
+      <section id="cases" class="cases flex-grid section-padding">
+        <header class="section-header">
+          <h4>This is what we do</h4>
+          <h2>Business Cases</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+            asperiores?
+          </p>
+        </header>
+        <div class="row">
+          <div class="columm">
+            <img src="./image_resources/cases/cases1.jpg" alt="" />
+            <img src="./image_resources/cases/cases2.jpg" alt="" />
+          </div>
+          <div class="columm">
+            <img src="./image_resources/cases/cases3.jpg" alt="" />
+            <img src="./image_resources/cases/cases4.jpg" alt="" />
+          </div>
+          <div class="columm">
+            <img src="./image_resources/cases/cases5.jpg" alt="" />
+            <img src="./image_resources/cases/cases6.jpg" alt="" />
+          </div>
+          <div class="columm">
+            <img src="./image_resources/cases/cases7.jpg" alt="" />
+            <img src="./image_resources/cases/cases8.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Blog -->
+      <section id="blog" class="blog flex-columns flex-reverse">
+        <div class="row">
+          <div class="columns">
+            <div class="colums-1">
+              <img src="./image_resources/home/blog.jpg" alt="" />
+            </div>
+          </div>
+          <div class="columns colums-2 bg-secondary">
+            <div class=" ">
+              <h4>April 16 2020</h4>
+              <h2>Blog</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+                debitis consequuntur quibusdam amet, obcaecati molestiae
+                expedita animi dolore perferendis corporis ut vel exercitationem
+                dolores harum nam corrupti eos sit earum!
+              </p>
+              <a href="./blog.html" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Read Our Blog
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team -->
+      <section id="contact" class="team section-padding">
+        <header class="section-header">
+          <h4>Who we are</h4>
+          <h2>Our Professional Team</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+            asperiores?
+          </p>
+        </header>
+        <div class="flex-items">
+          <div class="">
+            <img src="./image_resources/team/person1.jpg" alt="" />
+            <h4>Jhon Doe</h4>
+            <p>President</p>
+          </div>
+          <div class="">
+            <img src="./image_resources/team/person2.jpg" alt="" />
+            <h4>Jane Doe</h4>
+            <p>Vice President</p>
+          </div>
+          <div class="">
+            <img src="./image_resources/team/person3.jpg" alt="" />
+            <h4>Jhon Smith</h4>
+            <p>Marketing Head</p>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="contact flex-columns">
+        <div class="row">
+          <div class="columns">
+            <div class="colums-1">
+              <img src="./image_resources/home/contact.jpg" alt="" />
+            </div>
+          </div>
+          <div class="columns colums-2 bg-light">
+            <h2>Request Callback</h2>
+            <form action="" class="callback-form">
+              <div class="form-control">
+                <label for="name"></label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Enter Name"
+                />
+              </div>
+            </form>
+            <form action="" class="callback-form">
+              <div class="form-control">
+                <label for="email"></label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Enter Email"
+                />
+              </div>
+            </form>
+            <form action="" class="callback-form">
+              <div class="form-control">
+                <label for="phone"></label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter Phone Number"
+                />
+              </div>
+              <input type="submit" value="Send" id="submit" class="btn" />
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fa-solid fa-x fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2024 - Sakib Ahmed</p>
+    </footer>
   </body>
 </html>
