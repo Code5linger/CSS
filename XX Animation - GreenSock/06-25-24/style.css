@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 body {
   margin: 0;
-  height: 100vh;
   background: #2846ff;
   color: white;
   font-family: "Bebas Neue", sans-serif;
@@ -13,13 +12,13 @@ h1 {
   font-size: 15rem;
   text-align: center;
   opacity: 0.1;
-  margin: 45% 0 0 0;
+  margin: 15% 0 0 0;
 }
 
 .progress {
   background: white;
   height: 3px;
-  width: 50%;
+  width: 0;
   position: absolute;
   top: 50%;
 }/*# sourceMappingURL=style.css.map */
