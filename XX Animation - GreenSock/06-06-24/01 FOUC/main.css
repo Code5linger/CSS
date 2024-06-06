@@ -20,7 +20,6 @@ body {
 
 p {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-size: clamp(10rem, 5vw, 17rem);
+  font-size: clamp(7rem, 5vw, 17rem);
   transform: translateX(30%);
 }/*# sourceMappingURL=main.css.map */

@@ -20,9 +20,15 @@ body {
     cursor: pointer;
 }
 
+// .container {
+//     border-radius: 2%;
+//     width: 20vw;
+//     height: 28vw;
+// }
+
 p {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-size: clamp(10rem, 5vw, 17rem);
+    // font-optical-sizing: auto;
+    font-size: clamp(7rem, 5vw, 17rem);
     transform: translateX(30%);
 }
