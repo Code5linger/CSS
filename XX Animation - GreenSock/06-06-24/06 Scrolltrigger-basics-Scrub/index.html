@@ -49,8 +49,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
-    <script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script> -->
+    <!-- <script>
+
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: '.primary',
@@ -114,6 +115,23 @@
       }
 
       requestAnimationFrame(raf);
+    </script> -->
+    <script>
+      const tl = gsap.timelline({
+        scrollTrigger: {
+          trigger: '.primary',
+          start: 'top 20%',
+          end: 'bottom center',
+          toggleActions: 'play reverse restart reverse',
+        },
+        defaults: {
+          ease: 'power3.out',
+          duration: 1,
+        },
+      });
+      tl.from('h1', {
+        yPercent: 100,
+      }).from('aside p', { yPercent: 140 });
     </script>
   </body>
 </html>
