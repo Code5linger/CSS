@@ -1,0 +1,42 @@
+body {
+  background: black;
+  color: black;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.grid {
+  background: gray;
+  display: grid;
+  justify-items: start;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2;
+  border: 0.5rem solid white;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.box {
+  padding: 2rem;
+}
+
+.box-1 {
+  background: #c21292;
+}
+
+.box-2 {
+  background: #ef4040;
+}
+
+.box-3 {
+  background: #ffa732;
+}
+
+.box-4 {
+  background: #b31312;
+}
+
+.box-5 {
+  background: #711db0;
+  background: #65b741;
+}
