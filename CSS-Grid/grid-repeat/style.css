@@ -10,14 +10,16 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, auto);
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto); */
+  grid-template-columns: [group-a] 15rem [group-b] 15rem auto;
+  grid-template-rows: 3fr 250px auto 2fr;
   border: 0.5rem solid #f6c2f3;
 }
 
 .wrapper > * {
   padding: 2rem;
-  margin: 2rem;
+  margin: 0.5rem;
 }
 
 .wrapper > *:hover {
