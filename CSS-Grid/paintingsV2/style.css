@@ -61,7 +61,7 @@ body {
   grid-row: 4/5;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 750px) and (max-width: 950px) {
   .wrapper {
     grid-template-columns: 45px 393px 129px;
     grid-template-rows: 69px 65px 221px 197px;
