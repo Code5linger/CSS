@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 body {
@@ -9,32 +10,37 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
   border: 0.5rem solid #f6c2f3;
 }
 
 .wrapper > * {
-  background: crimson;
-  padding: 12rem 2rem;
+  padding: 2rem;
   margin: 2rem;
 }
 
-.box-:nth-child(n) {
+.wrapper > *:hover {
+  background: crimson;
+  box-shadow: 1rem 1rem 1rem red;
+}
+
+.box:nth-child(n) {
   background: #f09ea7;
 }
 
-.box-:nth-child(2n) {
+.box:nth-child(2n) {
   background: #f6ca94;
 }
 
-.box-:nth-child(3n) {
+.box:nth-child(3n) {
   background: #fafabe;
 }
 
-.box-:nth-child(4n) {
+.box:nth-child(4n) {
   background: #c1ebc0;
 }
 
-.box-:nth-child(5n) {
+.box:nth-child(5n) {
   background: #c7caff;
 }
