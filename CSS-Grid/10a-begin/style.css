@@ -60,4 +60,10 @@ figure > div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
+  gap: 1rem;
+}
+
+.three {
+  grid-column: 1 / span 2;
+  background: crimson;
 }
