@@ -23,10 +23,11 @@ body {
 .wrapper {
   position: relative;
   display: grid;
-  grid-template-columns: 30% auto;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: 1fr 0.8fr 1fr 1fr 1fr;
   grid-template-areas:
-    'header header header header'
-    'aside article article article';
+    'aside ... header header header'
+    'aside article article article article ';
 }
 
 .wrapper > * {
@@ -56,3 +57,41 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.nested-block {
+  background: #b0b5ed;
+  padding: 0.25rem 1rem;
+
+  border-radius: 1rem;
+}
+.nested-text > * {
+  margin-right: 0.5rem;
+}
+
+.block-a {
+  background: yellow;
+  grid-area: block-a;
+  visibility: hidden;
+}
+
+.block-b {
+  background: yellowgreen;
+  grid-area: block-b;
+}
+
+.block-c {
+  background: goldenrod;
+  grid-area: block-c;
+  margin-right: 0;
+}
+
+.nested-text {
+  display: grid;
+  border-radius: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 'block-b ... block-c';
+}
+
+/*  */
+/* 22. Grid Fallbacks */
+/* 23. Flexbox and CSS Grid Exercise 2 Setup */
