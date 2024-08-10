@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --gradient-bg: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+  --gradient-dark: linear-gradient(
+      to bottom,
+      #323232 0%,
+      #3f3f3f 40%,
+      #1c1c1c 150%
+    ),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+  background-blend-mode: multiply;
+  --gradient-A: linear-gradient(90deg, #0fd850 0%, #f9f047 100%);
+  --gradient-B: linear-gradient(90deg, #9be15d 0%, #00e3ae 100%);
+  --gradient-C: linear-gradient(90deg, #ed6ea0 0%, #ec8c69 100%);
+  --gradient-D: linear-gradient(90deg, #cc208e 0%, #6713d2 100%);
+  --gradient-E: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
+
+body {
+  background: var(--gradient-bg);
+  overflow: hidden;
+}
+
+.main {
+  position: relative;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  background: var(--gradient-dark);
+  width: 25rem;
+  height: 25rem;
+  margin: 10rem auto;
+}
+
+.box-A {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  background: var(--gradient-A);
+  height: 23rem;
+  width: 23rem;
+}
+
+.box-B {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  background: var(--gradient-B);
+  height: 20rem;
+  width: 20rem;
+}
+
+.box-C {
+  position: absolute;
+  left: 65px;
+  top: 65px;
+  background: var(--gradient-C);
+  height: 17rem;
+  width: 17rem;
+}
+
+.box-D {
+  position: absolute;
+  left: 88px;
+  top: 91px;
+  background: var(--gradient-D);
+  height: 14rem;
+  width: 14rem;
+}
+
+.box-E {
+  position: absolute;
+  left: 112px;
+  top: 117px;
+  background: var(--gradient-E);
+  height: 11rem;
+  width: 11rem;
+}
