@@ -1,0 +1,31 @@
+/** Add box sizing, border box to all selectors */
+
+* {
+  box-sizing: border-box;
+}
+
+.inlineFlex {
+  display: inline-flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-container {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 60rem;
+  border: 5px solid #000;
+  padding: 2em;
+}
+
+.flex-item {
+  margin: 0.5rem;
+  border: 5px solid #aaa;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em;
+  padding-top: 100px;
+  margin-top: 100px;
+}
