@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    border: solid .25rem black;
+    padding: 2rem;
+    margin: 10rem;
+    gap: 1rem;
+}
+
+h1 {
+    background: black;
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: 1rem;
+    border: solid .25rem silver;
+    /* width: 100%; */
+    width: auto;
+}
