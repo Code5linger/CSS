@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+a:hover, a:focus-visible {
+  text-decoration: underline;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid rebeccapurple;
+}
+.card-title {
+  font-size: 3rem;
+}
+.card-subtitle {
+  font-size: 1.75rem;
+}
+.card .body {
+  color: #333;
+}
+
+/*# sourceMappingURL=style.css.map */
