@@ -12,16 +12,20 @@ body {
 }
 
 button {
+    background: blue;
+    color: whitesmoke;
+    font-size: 2rem;
+
     padding: 2rem 4rem;
     border: none;
     border-radius: 3px;
-    font-size: 2rem;
-    background: blue;
-    color: whitesmoke;
 
+    /* transition: background 1s; */
     transition: all 1s;
 }
 
 button:hover {
     background: green;
+    color: crimson;
 }
+
