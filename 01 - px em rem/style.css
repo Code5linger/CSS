@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background: gray;
+}
+
+.text {
+    font-size: 5rem;
+    background: yellowgreen;
+
+}
+
+.text div {
+    font-size: 2rem;
+    background: crimson;
+}
