@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+button {
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+
+    transition: all 1s;
+}
+
+button:hover {
+    background: black;
+    color: whitesmoke;
+    /* border: 1px solid whitesmoke; */
+}

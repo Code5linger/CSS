@@ -25,4 +25,6 @@ button {
 
 button:hover {
     background-color: green;
+    color: black;
+    width: 500px;
 }
