@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #aaa;
+}
+
+.intro::first-letter {
+
+    font-size: 5rem;
+    background: black;
+    color: white;
+    padding: .25rem;
+    border-radius: .25rem;
+    font-weight: bold;
+}
