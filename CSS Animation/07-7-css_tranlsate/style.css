@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto;
+}
+
+img {
+    width: 30%;
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: translate(600px, 500px);
+}

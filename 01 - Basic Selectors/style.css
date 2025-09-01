@@ -8,12 +8,46 @@ body {
     background: #aaa;
 }
 
-.intro::first-letter {
+p::first-line {
+    color: crimson;
+}
 
-    font-size: 5rem;
+.intro::first-letter {
+    float: left;
+    font-size: 80px;
     background: black;
     color: white;
-    padding: .25rem;
-    border-radius: .25rem;
+    padding: 5px 10px;
+    border-radius: 5px;
     font-weight: bold;
+    margin: 10px 10px 0 0;
+    line-height: 1;
+}
+
+[input=text] {
+    background: crimson;
+}
+
+input::placeholder {
+    color: goldenrod;
+}
+
+.psudoElement::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.psudoElement::after {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin: 8px;
 }
